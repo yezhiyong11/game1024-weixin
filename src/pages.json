@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "1024小游戏",
+        "navigationBarBackgroundColor": "#faf8ef",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/challenge/challenge",
+      "style": {
+        "navigationBarTitleText": "挑战",
+        "navigationBarBackgroundColor": "#faf8ef",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/ranking/ranking",
+      "style": {
+        "navigationBarTitleText": "排行榜",
+        "navigationBarBackgroundColor": "#faf8ef",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "1024小游戏",
+    "navigationBarBackgroundColor": "#faf8ef",
+    "backgroundColor": "#faf8ef"
+  },
+  "tabBar": {
+    "color": "#776e65",
+    "selectedColor": "#8f7a66",
+    "backgroundColor": "#faf8ef",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/challenge/challenge",
+        "text": "挑战"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "排行榜"
+      }
+    ]
+  }
+}

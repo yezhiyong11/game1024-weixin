@@ -1,0 +1,21 @@
+{
+  "name": "1024小游戏",
+  "appid": "",
+  "description": "一款经典的1024数字合并游戏",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "project": {
+      "compileType": "miniprogram"
+    }
+  }
+}

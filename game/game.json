@@ -1,0 +1,11 @@
+{
+  "name": "1024小游戏",
+  "version": "1.0.0",
+  "description": "经典1024数字合并游戏",
+  "main": "game.js",
+  "icon": "icon.png",
+  "screenOrientation": "portrait",
+  "background": "#faf8ef",
+  "debug": true,
+  "requiredPermissions": {}
+}
