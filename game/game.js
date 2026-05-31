@@ -9,7 +9,9 @@ let gameWon = false
 let size = 4
 let level = 1
 let targetScore = 4
-let reviveCount = 3
+let reviveCount = 0
+let maxReviveCount = 3
+let gameHistory = []
 let isChallengeMode = false
 let challengeTarget = 0
 let currentChallengeId = null
@@ -246,6 +248,8 @@ function newGame() {
   score = isChallengeMode ? 10 : (level <= 8 ? 2 : 4)
   gameOver = false
   gameWon = false
+  gameHistory = []
+  reviveCount = 0
   
   if (!isChallengeMode) {
     if (level <= 8) {
@@ -278,6 +282,18 @@ function addRandomTile() {
       col: randomIndex % size,
       isNew: true
     })
+  }
+}
+
+function saveGameState() {
+  gameHistory.push({
+    grid: [...grid],
+    tiles: JSON.parse(JSON.stringify(tiles)),
+    score: score,
+    totalScore: totalScore
+  })
+  if (gameHistory.length > 10) {
+    gameHistory.shift()
   }
 }
 
@@ -327,7 +343,7 @@ function draw() {
   ctx.fillStyle = '#8f7a66'
   ctx.font = 'bold 48px Arial'
   ctx.textAlign = 'center'
-  ctx.fillText('1024', canvas.width / 2, 45)
+  ctx.fillText('经典游戏1024', canvas.width / 2, 45)
   
   let levelText = ''
   if (isChallengeMode && currentChallengeId) {
@@ -390,17 +406,44 @@ function draw() {
   
   const gridBottomY = offsetY + size * cellSize + (size - 1) * padding + 30
   
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '14px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText(`复活次数: ${reviveCount}/${maxReviveCount}`, canvas.width / 2, gridBottomY - 20)
+  
   if (gameOver) {
     ctx.fillStyle = 'rgba(238, 228, 218, 0.9)'
     ctx.fillRect(0, gridBottomY - 40, canvas.width, 100)
     
-    ctx.fillStyle = '#8f7a66'
-    ctx.font = 'bold 32px Arial'
-    ctx.textAlign = 'center'
-    ctx.fillText('游戏结束', canvas.width / 2, gridBottomY + 5)
-    
-    ctx.font = '18px Arial'
-    ctx.fillText('点击屏幕重新开始', canvas.width / 2, gridBottomY + 35)
+    if (reviveCount < maxReviveCount && gameHistory.length >= 1) {
+      const reviveBtnX = (canvas.width - 120) / 2
+      const reviveBtnY = gridBottomY + 25
+      const reviveBtnW = 120
+      const reviveBtnH = 36
+      
+      ctx.fillStyle = '#edc22e'
+      drawRoundedRect(ctx, reviveBtnX, reviveBtnY, reviveBtnW, reviveBtnH, 8)
+      ctx.fill()
+      
+      ctx.fillStyle = '#8f7a66'
+      ctx.font = 'bold 16px Arial'
+      ctx.textAlign = 'center'
+      ctx.fillText(`复活 (${maxReviveCount - reviveCount})`, reviveBtnX + reviveBtnW / 2, reviveBtnY + 22)
+    } else {
+      const restartBtnX = (canvas.width - 120) / 2
+      const restartBtnY = gridBottomY + 25
+      const restartBtnW = 120
+      const restartBtnH = 36
+      
+      ctx.fillStyle = '#8f7a66'
+      drawRoundedRect(ctx, restartBtnX, restartBtnY, restartBtnW, restartBtnH, 8)
+      ctx.fill()
+      
+      ctx.fillStyle = '#f9f6f2'
+      ctx.font = 'bold 16px Arial'
+      ctx.textAlign = 'center'
+      ctx.fillText('重新开始', restartBtnX + restartBtnW / 2, restartBtnY + 22)
+    }
   }
   
   if (gameWon) {
@@ -408,9 +451,16 @@ function draw() {
     ctx.fillRect(0, gridBottomY - 40, canvas.width, 100)
     
     ctx.fillStyle = '#8f7a66'
-    ctx.font = 'bold 32px Arial'
+    ctx.font = 'bold 24px Arial'
     ctx.textAlign = 'center'
-    ctx.fillText('恭喜过关!', canvas.width / 2, gridBottomY + 5)
+    
+    if (isChallengeMode) {
+      const challenge = challengeLevels.find(c => c.id === currentChallengeId)
+      const challengeName = challenge ? challenge.name : '挑战模式'
+      ctx.fillText(`${challengeName}完成!`, canvas.width / 2, gridBottomY + 5)
+    } else {
+      ctx.fillText(`第 ${level} 关完成!`, canvas.width / 2, gridBottomY + 5)
+    }
     
     ctx.font = '18px Arial'
     ctx.fillText('点击屏幕进入下一关', canvas.width / 2, gridBottomY + 35)
@@ -497,17 +547,17 @@ function drawRanking() {
     const y = startY + i * (boxHeight + gap)
     
     ctx.fillStyle = i === 0 ? '#edc22e' : (i === 1 ? '#c9b9a8' : (i === 2 ? '#a67c52' : '#bbada0'))
-    drawRoundedRect(ctx, 30, y, canvas.width - 60, boxHeight, 8)
+    drawRoundedRect(ctx, 8, y, canvas.width - 16, boxHeight, 8)
     ctx.fill()
     
     ctx.fillStyle = '#f9f6f2'
     ctx.font = 'bold 28px Arial'
     ctx.textAlign = 'left'
-    ctx.fillText(`${i + 1}`, 50, y + 40)
+    ctx.fillText(`${i + 1}`, 35, y + 40)
     
     ctx.font = 'bold 22px Arial'
     const name = displayRecords[i].weixinName || '游客'
-    ctx.fillText(name, 90, y + 40)
+    ctx.fillText(name, 75, y + 40)
     
     ctx.font = '20px Arial'
     const levelValue = displayRecords[i].level || 1
@@ -515,7 +565,7 @@ function drawRanking() {
     
     ctx.textAlign = 'right'
     const totalScoreValue = displayRecords[i].totalScore || 0
-    ctx.fillText(`总分: ${totalScoreValue}`, canvas.width - 50, y + 40)
+    ctx.fillText(`总分: ${totalScoreValue}`, canvas.width - 35, y + 40)
   }
   
   if (displayRecords.length === 0) {
@@ -785,6 +835,26 @@ function getTouchTarget(x, y) {
     const offsetY = 220
     const gridBottomY = offsetY + size * cellSize + (size - 1) * padding + 30
     
+    if (gameOver) {
+      if (reviveCount < maxReviveCount && gameHistory.length >= 1) {
+        const reviveBtnX = (canvas.width - 120) / 2
+        const reviveBtnY = gridBottomY + 25
+        const reviveBtnW = 120
+        const reviveBtnH = 36
+        if (x >= reviveBtnX && x <= reviveBtnX + reviveBtnW && y >= reviveBtnY && y <= reviveBtnY + reviveBtnH) {
+          return 'revive'
+        }
+      } else {
+        const restartBtnX = (canvas.width - 120) / 2
+        const restartBtnY = gridBottomY + 25
+        const restartBtnW = 120
+        const restartBtnH = 36
+        if (x >= restartBtnX && x <= restartBtnX + restartBtnW && y >= restartBtnY && y <= restartBtnY + restartBtnH) {
+          return 'restart'
+        }
+      }
+    }
+    
     if (currentTab === 'home') {
       const resetBtnY = gridBottomY + 25
       const resetBtnX = (canvas.width - 100) / 2
@@ -800,6 +870,16 @@ function getTouchTarget(x, y) {
 }
 
 function handleTabClick(tab) {
+  if (tab === 'revive') {
+    revive()
+    return
+  }
+  
+  if (tab === 'restart') {
+    newGame()
+    return
+  }
+  
   if (tab === 'resetLevel') {
     resetLevel()
     draw()
@@ -899,6 +979,7 @@ function moveLeft() {
   }
   
   if (moved) {
+    saveGameState()
     grid = newGrid
     addRandomTile()
     checkWin()
@@ -941,6 +1022,7 @@ function moveRight() {
   }
   
   if (moved) {
+    saveGameState()
     grid = newGrid
     addRandomTile()
     checkWin()
@@ -981,6 +1063,7 @@ function moveUp() {
   }
   
   if (moved) {
+    saveGameState()
     grid = newGrid
     addRandomTile()
     checkWin()
@@ -1023,6 +1106,7 @@ function moveDown() {
   }
   
   if (moved) {
+    saveGameState()
     grid = newGrid
     addRandomTile()
     checkWin()
@@ -1051,7 +1135,51 @@ function checkGameOver() {
         }
       }
     }
-    gameOver = true
+    
+    if (reviveCount < maxReviveCount) {
+      gameOver = true
+    } else {
+      newGame()
+    }
+  }
+}
+
+function revive() {
+  if (reviveCount >= maxReviveCount) {
+    return
+  }
+  
+  if (gameHistory.length >= 2) {
+    gameHistory.pop()
+    const lastState = gameHistory.pop()
+    grid = lastState.grid
+    tiles = lastState.tiles
+    score = lastState.score
+    totalScore = lastState.totalScore
+    gameOver = false
+    
+    reviveCount++
+    
+    const gameData = wx.getStorageSync('game1024_data') || {}
+    gameData.reviveCount = reviveCount
+    wx.setStorageSync('game1024_data', gameData)
+    
+    draw()
+  } else if (gameHistory.length === 1) {
+    const lastState = gameHistory.pop()
+    grid = lastState.grid
+    tiles = lastState.tiles
+    score = lastState.score
+    totalScore = lastState.totalScore
+    gameOver = false
+    
+    reviveCount++
+    
+    const gameData = wx.getStorageSync('game1024_data') || {}
+    gameData.reviveCount = reviveCount
+    wx.setStorageSync('game1024_data', gameData)
+    
+    draw()
   }
 }
 
@@ -1073,6 +1201,16 @@ function nextLevel() {
     const challengeIndex = challengeLevels.findIndex(c => c.id === currentChallengeId)
     if (challengeIndex !== -1) {
       challengeLevels[challengeIndex].state = 'completed'
+    }
+    
+    const nextChallengeIndex = challengeIndex + 1
+    if (nextChallengeIndex < challengeLevels.length) {
+      if (challengeLevels[nextChallengeIndex].state === 'locked') {
+        challengeLevels[nextChallengeIndex].state = 'available'
+      }
+      currentChallengeId = challengeLevels[nextChallengeIndex].id
+      challengeTarget = challengeLevels[nextChallengeIndex].target
+      targetScore = challengeLevels[nextChallengeIndex].target
     }
   }
   
