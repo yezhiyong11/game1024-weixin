@@ -1,0 +1,9 @@
+{
+  "name": "gameApi",
+  "version": "1.0.0",
+  "description": "game 1024 cloud api",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

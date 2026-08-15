@@ -40,6 +40,8 @@
     "tabSize": 2
   },
   "compileType": "game",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "cloudEnvId": "xiaoyouxi10124-d1gtaj0nd63e2279a",
   "simulatorPluginLibVersion": {},
   "isGameTourist": false
 }
