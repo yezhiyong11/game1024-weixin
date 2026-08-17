@@ -1,2 +1,1618 @@
-var a=Math.log,b=Math.pow,c=Math.floor,d=Math.random,e=Math.exp,f=Math.abs,g=Math.round,h=Math.E,i=Math.LN10,j=Math.LN2,k=Math.LOG10E,l=Math.PI,m=Math.SQRT1_2,n=Math.SQRT2;var o=30,p=33,q=42,r=34,s=5,t=24,u=78,v=7,w=93,x=50,y=42,z=47,A=22,B=23,C=10,D=50,E=24,F=52,G=63,H=54,I=44,J=98,K=59,L=41,M=13,N=42,O=97,P=47,Q=41,R=98,S=30,T=18,U=55,V=19,W=97,X=93,Y=40,Z=57,_0=42,_1=42,_2=74,_3=63,_4=74,_5=83,_6=40,_7=11,_8=88,_9=58,ba=69,bb=97,bc=43,bd=23,be=79,bf=34,bg=15,bh=69,bi=35,bj=5,bk=82,bl=22,bm=59,bn=40,bo=82,bp=72,bq=48,br=5,bs=32,bt=31,bu=8,bv=75,bw=25,bx=71,by=49,bz=43,bA=41,bB=50,bC=85,bD=47,bE=67,bF=36;var bG=g(2*a(f(93*T+50*50)))<=g(a(x*x+93*w)+a(50*50+18*18)),bH=bB*bB+54*H+24*24+79*be<79*H+H*bB+t*be+bB*t,bI=c((K+47+34)/3)>=c(e((a(K)+a(47)+a(34))/3)),bJ=g(2*a(f(T*18+63*bj)))<=g(a(63*_3+18*T)+a(bj*bj+18*T)),bK=c((q+42+_8+F)/4)>=c(e((a(52)+a(_8)+a(42)+a(q))/4)),bL=10*10+57*Z+O*97+74*74>=Z*_4+74*C+C*O+O*Z,bM=g(2*a(f(t*97+23*bf)))>g(a(B*B+t*t)+a(34*34+97*O)),bN=c((K+18+p)/3)>=c(e((a(K)+a(p)+a(T))/3)),bO=g(2*a(f(bn*40+97*bo)))<=g(a(bb*bb+bn*bn)+a(40*bn+82*bo)),bP=g(2*a(f(bd*_9+49*63)))>g(a(bd*bd+by*by)+a(_9*_9+_3*_3)),bQ=c((98+5+F)/3)<c(e((a(98)+a(bj)+a(52))/3)),bR=g(2*a(f(M*40+G*G)))<=g(a(G*G+13*13)+a(63*63+_6*_6)),bS=g(2*a(f(bb*42+10*C)))<=g(a(97*97+C*C)+a(y*42+C*C)),bT=40*40+bo*82+bg*bg+71*bx>=bg*82+bo*40+bn*bx+71*bg,bU=c((74+br+_5+C)/4)<c(e((a(5)+a(10)+a(83)+a(74))/4)),bV=W*97+bo*82+48*48>=bq*82+W*48+bo*97,bW=41*41+54*54+_2*_2<41*_2+_2*H+54*L,bX=c((54+bt+5)/3)>=c(e((a(bt)+a(H)+a(5))/3)),bY=g(2*a(f(bB*42+J*bk)))>g(a(J*98+50*50)+a(bk*bk+42*42)),bZ=c((10+N+bd+bj)/4)<c(e((a(N)+a(23)+a(10)+a(5))/4)),b0=98*J+bu*8+59*K+bt*31<bu*98+bt*8+59*31+98*K,b1=T*18+p*33+_7*11+74*_4<_7*18+_4*p+18*_4+p*11,b2=63*63+bc*bc+bi*bi>=bi*43+43*63+63*bi,b3=g(2*a(f(o*_9+50*L)))<=g(a(o*30+D*50)+a(L*41+_9*_9)),b4=g(2*a(f(42*42+bB*bm)))>g(a(50*50+42*_1)+a(59*59+42*_1)),b5=g(2*a(f(42*bg+bf*13)))<=g(a(42*_1+34*bf)+a(M*M+15*15)),b6=c((18+63+C)/3)<c(e((a(C)+a(63)+a(18))/3)),b7=bk*bk+T*T+N*N<T*42+42*bk+bk*T,b8=g(2*a(f(49*by+X*bt)))>g(a(by*49+93*93)+a(49*49+31*bt)),b9=g(2*a(f(18*C+M*r)))<=g(a(18*18+M*M)+a(r*r+10*10)),ca=g(2*a(f(p*B+42*78)))>g(a(42*42+33*33)+a(B*23+78*78)),cb=c((67+u+75)/3)>=c(e((a(bv)+a(78)+a(bE))/3)),cc=c((41+23+I)/3)<c(e((a(41)+a(23)+a(44))/3)),cd=g(2*a(f(58*_1+by*s)))<=g(a(58*_9+49*by)+a(_1*_1+5*s)),ce=bC*85+bo*bo+z*z+42*42>=bo*47+47*bC+q*bo+bC*q,cf=c((_8+F+34+30)/4)<c(e((a(34)+a(o)+a(F)+a(88))/4)),cg=c((24+bt+50+bB)/4)>=c(e((a(31)+a(t)+a(bB)+a(50))/4)),ch=63*63+72*72+bv*bv+Z*57<75*72+bp*Z+57*63+_3*bv,ci=47*z+bb*97+C*10+69*bh<C*97+z*C+bb*bh+69*z,cj=g(2*a(f(10*10+D*J)))>g(a(10*C+50*50)+a(10*10+J*J));var ck,cl,cm,cn,co,cp,cq,cs,ct,cu,cv,cw,cx,cy,cz,cA,cB,cC,cD,cE,cF,cG,cH,cI,cJ,cK,cL,cM,cN,cO,cP,cQ,cR,cS,cT,cU,cV,cW,cX,cY,cZ,c0;var c1,c2,c3,c4,c5,c6;var c7;var c8,c9,da;var db;var dc,dd,de;var df,dg;var dh,di,dj,dk;var dl=+bI,dm=+bI,dn=+bI;String.prototype.s=function(a){let b=[];for(let c=0;c<this.length;c+=a){b.push(this.slice(c,c+a))}return b};var dp={h:function(a){let b=Array.from(a);for(let c=0,d=a.length-1;c<d;c++,d--){let a=b[c];b[c]=b[d];b[d]=a}return b.join("")}};var dq="";var dr=new Array(30);dq=dp.h("战挑页首分总数分错不行还般一差很d2家玩IPdi",2);dr[0]=dq.s(2);dq=dp.h("中行进成完已锁解未locwordi_榜行排nissocwopvnenimpopsba...golyek",3);dr[1]=dq.s(3);dq=dp.h("战挑级高drah战挑级中战挑级初ysaeemoscsed始开新重分评 ★edoc录记无暂名排数关论评入输误错知未价评交提价评家玩!棒常非tinitsildnif式模战挑emitatadliafdirgenontfelemohnrawnehthsupnociemanlliftnof",4);dr[2]=dq.s(4);dq=dp.h("战挑级师大nigol:liaf:atadtfihs名排数分总！功成价评yreveweNsieulavtimilredroesraprorreduolcthgirroolfselithctacecilslebalerocseltitetatsylppalevelhtdiw",5);dr[3]=dq.s(5);dq=dp.h("retsammuidem成完已战挑该ngissatcejerelddimgnirts...中载加 :败失交提=erocsyBtros=leveleviverHladomtaepermodnartArahcnoitcaWladomYladomXladomecilpsoTevomekortstluserrebmundinepooTenildekcolthgiehtegratretnechtgnel",6);dr[4]=dq.s(6);dq=dp.h("4b1cdc#hcaErof:tluseripAemag25c76a#8a9b9c#000000#16ccde#8c0ede#f5c76f#b3e56f#058cde#36595f#971b2f#ad4eee#f35cde#27fcde#23a3c3#yarrAsimrifnoc=dineposehcuot)论评写填未(6d0e8e#08898a#dexiFotegarevaecalperevloserdinepo_78f889#56e677#tratseresreverffffff#YtneilcXtneilcfe8faf#tnetnoctnemmoc7a0b8b#egassemsseccus2cdc6d#0adabb#gniknare22cde#2f6f9f#66a7f8#",7);dr[5]=dq.s(7);dq=dp.h("ofnIresu块方动移幕屏动滑...榜行排载加gnirtSot)字002多最(...化始初在正分评级星择选先请dInixiew4201戏游典经elbatidetceRllifemaNkcinkcol_tontxeTllif",8);dr[6]=dq.s(8);dq=dp.h("denifednu关一下入进幕屏击点ladoMwohs...论评入输击点xednIdnifhtaPesolcresUecarthtaPnigebhtdiWenilgnirtsbustsaoTwohsegnellahcdetelpmocyfignirtselbaliavangilAtxetelytSllif",9);dr[7]=dq.s(9);dq=dp.h("emaGetadpugniknaRteglairA xp41lairA xp42lairA xp22weiveRevaslairA xp11txetnoCtegdnEhcuoTnosweiveRteghtiWstratslairA xp61lairA xp02erocs_troslevel_tros_egnellahclairA xp31lairA xp81lairA xp21emaNnixiewerocSlatot",10);dr[8]=dq.s(10);dq=dp.h("=ydaeRduolcataDresUteg...候稍请，录登在正htdiWwodniw=erocSlatotnepo_weivertxeTerusaemelytSekortsdIresUduolc",11);dr[9]=dq.s(11);dq=dp.h("noitcnuFllac战挑多更锁解式模关闯成完enilesaBtxet—— 表列价评家玩 ——！吧发沙抢来快，价评无暂分打4201戏游典经为请savnaCetaerctratShcuoTnothgieHwodniwdeweiveRresuesolc_weivertupni_weiver_rats_weiver",12);dr[10]=dq.s(12);dq=dp.h("✗ ]duolCllac[← ]duolCllac[！吧个一第为成，价评有没还！持支谢感，价评过交提已你timbus_weiveratad_4201emag2918egnellahc6904egnellahc8402egnellahc4201egnellahc",13);dr[11]=dq.s(13);dq=dp.h("=2918egnellahc=6904egnellahc=8402egnellahcsehcuoTdegnahccnySegarotStescnySegarotSteg",14);dr[12]=dq.s(14);dq=dp.h("lairA xp63 dloblairA xp41 dlobydaer ton duolclairA xp23 dloblairA xp51 dloblairA xp22 dloblairA xp04 dlobtxeTredlohecalplairA xp81 dloblairA xp31 dloblairA xp61 dloblairA xp02 dloblairA xp42 dlob",15);dr[13]=dq.s(15);dq=dp.h("oTevruCcitardauq",16);dr[14]=dq.s(16);dq=dp.h("deliaf gniknaRtegdeliaf duolc llaccnySegarotSevomercnySofnImetsySteg",17);dr[15]=dq.s(17);dq=dp.h("rorre ataDemaGevas)5.0 ,0 ,0 ,0(abgr",18);dr[16]=dq.s(18);dq=dp.h(")字002多最( ...受感戏游的你享分",20);dr[17]=dq.s(20);dq=dp.h(":noitca → ]duolCllac[:deliaf ]sweiveRdaol[",21);dr[18]=dq.s(21);dq=dp.h(":DELIAF ]weiveRtimbus[",22);dr[19]=dq.s(22);dq=dp.h(")9.0 ,812 ,822 ,832(abgr",24);dr[20]=dq.s(24);dq=dp.h("=4201egnellahc ]leveLtxen[",26);dr[21]=dq.s(26);dq=dp.h("=dIresUduolc ]weiveRtimbus[DELIAF tini.duolc.xw ]tini[",27);dr[22]=dq.s(27);dq=dp.h("=dIresUduolc ]resUduolCegrem[",29);dr[23]=dq.s(29);dq=dp.h("a9722e36dn0jatg1d-42101ixuoyoaix:DETELPMOC egnellahc ]leveLtxen[",32);dr[24]=dq.s(32);dq=dp.h(":DELIAF emaGetadpu ← ]ataDemaGevas[SSECCUS emaGetadpu ← ]ataDemaGevas[=duolCoTevas ,dellac ]ataDemaGevas[gnippiks ,detrats ydaerla tooBcnysa",35);dr[25]=dq.s(35);dq=dp.h(":DEKCOLNU egnellahc txen ]leveLtxen[",36);dr[26]=dq.s(36);dq=dp.h("kcabllaf lacol esu ,deliaf tini duolc",37);dr[27]=dq.s(37);dq=dp.h(":noitca piks ,ydaer ton duolc ]duolCllac[=dIresUduolc ,duolc ot gnivas ]leveLtxen[",41);dr[28]=dq.s(41);dq=dp.h("evas duolc PIKS ,eslaf=ydaeRduolc ]ataDemaGevas[=dIvne ,eurt=ydaeRduolc ,KO tini.duolc.xw ]tini[",48);dr[29]=dq.s(48);var ds="2,J,N,g,k,h,d,P,c,p,f,W,i,S,n,T,Q,R,X,O,b,o,U,l,a,r,Y,V,m,Z,K,j,q,L,e,M,Lg,3,u,w,?,2,x,~,0,;,s,v,Bc,z,y,6,t,1,4,),BI,CS,&,#,E?,CN,BD,W&,F8,!,A,C,G,Bk,C;,B?,BS,ts,BBA";function dt(a){let b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+./:;<=>?@[]^_`{|}~"',c={};for(let a=0;a<b.length;++a){c[b[a]]=a}function d(a){let d=b.length,e=0,f=a.length,g=1;for(let b=f-1;b>=0;b--){let f=c[a[b]];e+=f*g;g*=d}return e}let e=",",f=a.split(e),g=Number(f[0]),h=[];for(let a=1;a<f.length;++a){let b=d(f[a]);h.push(b+g)}return h}var du=dt(ds);if(dl){ck=dr[4][16];cl=du[0];cm="5";cn=du[1];co=du[2];cp=du[3];cq=du[4];cs=du[5];ct=du[6];cu=du[7];cv=du[8];cw=du[9];cx=du[10];cy=du[11];cz=du[12];cA=du[13];cB=du[14];cC=du[15];cD=du[16];cE=du[17];cF=du[18];cG=du[19];cH=du[20];cI=du[21];cJ=du[22];cK=du[23];cL=du[24];cM=du[25];cN=du[26];cO=du[27];cP=du[28];cQ=du[29];cR=du[30];cS=du[31];cT=du[32];cU=du[33];cV=du[34];cW=dr[3][7];cX=dr[3][2];cY=c0=db=dj="";cZ=dr[7][2];c1=dr[2][4];c2=dr[5][7];c3=dr[2][7];c4=dr[12][2];c5=dr[1][4];c6=dr[3][5];c7="×";c8="★";c9="☆";da=dr[11][4];dc=dr[2][24];dd="=";de="[nextLevel] all challenges completed, no next challenge";df=dr[4][29];dg=dr[3][25];dh="[saveGameData] → calling updateGame with cloudUserId=";di=dr[25][2];dk=dr[24][1]}if(dl&&bL){cY="completed"}if(dl&&bJ){c0="l"}if(dl&&cd){db=""}if(dl&&b3){dj="31"}if(dl&&bM){cY+=df;dj+=di}if(dl&&bQ){c0+=dg}if(dl&&b1){db+=dc}if(dl&&bP){dj+=cZ}if(dl&&bN){dj+="F"}if(dl&&bS){dj+="EF"}if(dl&&bG){dj+="5"}if(dl&&bG){dj+="5"}if(dl&&bO){dj+="B0C"}if(dl&&cd){dj+="49"}if(dl&&b9){dj+="09F"}if(dl&&bV){dj+="445"}if(dl&&bK){dj+="05"}if(dl&&b9){dj+="F"}if(dl&&cd){dj+="8"}if(dl&&bK){dj+="A"}if(dl&&bV){dj+="4"}if(dl&&b9){dj+="8A"}if(dl&&bJ){dj+="21"}if(dl&&ce){dj+="76"}if(dl&&bS){dj+="38"}if(dl&&bT){dj+="3"}if(dl&&b2){dj+="C"}if(dl&&bJ){dj+="A"}if(dl&&bO){dj+="D7"}if(dl&&cg){dj+="037"}if(dl&&cg){dj+="809"}if(dl&&cd){dj+="41"}if(dl&&b3){dj+="DC"}if(dl&&cb){dj+="F11"}if(dl&&bO){dj+="B8"}if(dl&&bJ){dj+="9CE"}if(dl&&bG){dj+="4E"}if(dl&&b2){dj+="35"}if(dl&&bT){dj+="CB"}if(dl&&bS){dj+="4"}if(dl&&bL){dj+="FB"}if(dl&&bL){dj+="7"}if(dl&&b2){dj+="7"}if(dl&&bO){dj+="4"}if(dl&&b3){dj+="E45"}if(dl&&cb){dj+="BBC"}if(dl&&bJ){dj+="6B5"}if(dl&&bG){dj+="620"}if(dl&&bX){dj+="C"}if(dl&&bR){dj+="9"}if(dl&&bV){dj+="F63"}if(dl&&bT){dj+="F0F"}if(dl&&cb){dj+="8E8"}if(dl&&ce){dj+="61A"}if(dl&&b5){dj+="63"}if(dl&&bT){dj+="CC"}if(dl&&bJ){dj+="19A"}if(dl&&cg){dj+="4"}dq=null;ds=null;if(dl&&ce){dj+="1F"}if(dl&&bX){dj+="804"}if(dl&&bR){dj+="91F"}if(dl&&bT){dj+="B2"}if(dl&&ce){dj+="26"}if(dl&&bR){dj+="BAD"}if(dl&&bO){dj+="F"}if(dl&&bJ){dj+="3C8"}if(dl&&bX){dj+="E"}if(dl&&bX){dj+="B96"}if(dl&&bX){dj+="6"}if(dl&&bT){dj+="47B"}if(dl&&bI){dj+="56"}if(dl&&cb){dj+="4"}if(dl&&bG){dj+="07B"}if(dl&&ce){dj+="18"}if(dl&&bR){dj+="A"}if(dl&&bN){dj+="54F"}if(dl&&bJ){dj+="64F"}if(dl&&bV){dj+="D"}if(dl&&bK){dj+="BC"}if(dl&&bV){dj+="F61"}if(dl&&bN){dj+="45"}if(dl&&b9){dj+="14D"}if(dl&&cd){dj+="36"}if(dl&&bT){dj+="934"}if(dl&&cd){dj+="D"}dl=0;if((""+j)[ck](cl)!=cm){this["31FEF55B0C4909F44505F8A48A2176383CAD703780941DCF11B89CE4E35CB4FB774E45BBC6B5620C9F63F0F8E861A63C28C3491FA098C9E7C79F1D5F0806C3E59688E02BF2E779FC44E3BAFF6CF1AEBE"[ck](2)]*=2}d5();function dv(a,b,c){let d=a[b];a[b]=a[c];a[c]=d}var dw=[cn,1,co,6,cp,cq,cs,ct,cu,cl,cv,7,2,cw,cx,cy,cz,cA,cB,8,cC,cD,cE,3,0,cF,cG,cH,cI,cJ,cK,cL,cM,9,4,cN,cO,cP,cQ,10,cR,cS,cT,5,cU,cV];var dx=[cT,6,7,2,cl,10,0,9,1,cQ,4,3,5,8];var dy=[8,5,2,3,0,9,7,4,1,6];var dz=2;var dA=cs;var dB=5;var dC=[2,7,6,5,cQ,cl,8,4,0,10,9,cV,1,cT,3];var dD=[8];var dE=[2,8,cl,0,6,10,9,5,cQ,4,3,7,1];var dF=1;var dG=[cz,cC,cl,cB,cN,3,ct,cF,0,1,10,cD,4,2,6,cV,cI,9,8,cT,cn,5,cQ,7];var dH=[3];var dI=2;var dJ=[8];var dK=[5];var dL=8;var dM=0;var dN=[8];var dO=[9,cl,6,1,5,0,7,3,8,2,4,cQ,10];var dP=[cx,10,2,cn,cz,cT,8,cF,ct,0,3,cV,7,cD,cl,5,cB,cI,cC,6,cQ,cN,cE,1,9,4];var dQ=8;if(bP)dv(dw,3,cG);if(ce)dv(dw,cw,cL);if(bO)dv(dw,6,cR);if(ch)dv(dx,cl,cQ);if(cb)dv(dx,8,9);if(bL)dv(dx,3,4);if(g(2*a(f(_0*_0+z*q)))<=g(a(z*z+_0*_0)+a(_0*_0+q*q)))dv(dy,1,5);if(ce)dv(dy,8,9);if(bP)dv(dy,6,5);if(b3)dz=5;if(b2)dA=cS;if(c((F+Q+bA+_9)/4)>=c(e((a(bA)+a(_9)+a(Q)+a(F))/4)))dB=cl;if(ch)dv(dC,cV,10);if(c((Z+y+bn+o)/4)>=c(e((a(Z)+a(o)+a(bn)+a(y))/4)))dv(dC,4,1);if(bO)dv(dC,cT,3);if(bR)dD=[8,0,2,3,9,6,1,7,4,5];if(b2)dv(dE,7,3);if(ci)dv(dE,9,10);if(bL)dv(dE,9,1);if(bK)dF=4;if(cf)dv(dG,0,cT);if(bR)dv(dG,6,4);if(bR)dv(dG,10,ct);if(b3)dI+=2;if(b6)dI+=0;if(bN)dJ=[9,2,0,8,3,10,6,1,5,7,4];if(cd)dK=[cl,1,9,10,6,5,cQ,0,2,7,4,3,8];if(bJ)dM+=2;if(ch)dM+=0;if(bM)dv(dO,6,5);if(c((by+bc+p+bh)/4)>=c(e((a(p)+a(bh)+a(by)+a(bc))/4)))dv(dO,cl,cQ);if(b2)dv(dO,4,6);if(b4)dv(dP,cC,cV);if(b3)dv(dP,2,10);if(cg)dv(dP,cn,3);if(bX)dQ+=6;if(ci)dQ+=3;var dR=dz;var dS=dA;var dT=dB;var dU=dD[cW](0);var dV=dF;var dW=dJ[cW](0);var dX=dK[cW](0);let addRandomTile,saveGameState,saveLocalRanking,checkWin,challengeStateFromCloud,challengeStateToCloud,newGame,moveDown,asyncBoot,saveGameData,moveUp,moveRight,hideReviewInput,drawLoading,doSubmitReview,mergeCloudUser,nextLevel,loadReviews,draw,loadLocalRanking,drawStar,drawChallenge,loadRanking,submitReview,drawTabBar,applyLocalCache,finishBoot,touchStart,loadLocalFallback,applyChallengeUnlockRules,drawRoundedRect,moveLeft,revive,drawRanking,getTouchTarget,init,callCloud,drawTile,handleTabClick,touchEnd,getReviewModalRect,resetLevel,getRandomValue,checkGameOver,drawReviewModal,showReviewInput;for(let b of dw){if(dm&&ci){cY+=c2}if(dm&&b0){c0+=da}if(dm&&b9){c0+="ength"}dm=0;if(b1)dL=[9];var dY=[8,5,3,cl,0,2,10,cQ,9,4,7,1,6];var dZ=[6,10,9,cQ,cl,4,5,1,2,8,7,3,0];if(bY)dv(dY,cQ,9);if(c((_3+bb+by)/3)>=c(e((a(by)+a(_3)+a(bb))/3)))dv(dY,6,1);if(b3)dv(dY,cQ,0);if(c((by+Y+t+be)/4)>=c(e((a(Y)+a(by)+a(be)+a(t))/4)))dv(dZ,cQ,2);if(bZ)dv(dZ,0,cQ);if(bT)dv(dZ,0,6);if(c((_3+s+K+x)/4)>=c(e((a(_3)+a(K)+a(s)+a(x))/4)))dH=[2,3,cl,1,4,10,cn,cT,6,9,cV,7,cF,5,cQ,8,0];if(c((_9+bm+bo)/3)>=c(e((a(_9)+a(bm)+a(bo))/3)))dN=[4,5,10,cV,cl,7,6,0,1,9,3,cQ,cT,8,2];var d0=dH[cW](0);var d1=dN[cW](0);if(-1==b){}else if(0==b){submitReview=function(){var a=dr,b=a[2][5];if(userReviewScore<=0){wx[a[7][6]](function(){var a=dr,BW=a[3][4],BX=a[2][3];let b;b={[BW]:0,[BX]:0};b[BW]=a[6][7];b[BX]=a[2][9];return b}[a[3][2]]());return}if(bootPromise&&bootPromise[b]){bootPromise[b](()=>doSubmitReview())}else{doSubmitReview()}};continue}else if(1==b){challengeStateToCloud=function(a){var b=dr,c=b[3][2];switch(a){case cY:return function(){var a=dr,BZ=a[3][1],B0=a[6][1];let b;b={[BZ]:0,[B0]:0};b[BZ]=true;b[B0]=true;return b}[c]();case b[7][2]:return function(){var a=dr,B4=a[3][1],B5=a[6][1];let b;b={[B4]:0,[B5]:0};b[B4]=false;b[B5]=true;return b}[c]();default:return function(){var a=dr,B7=a[3][1],B8=a[6][1];let b;b={[B7]:0,[B8]:0};b[B7]=false;b[B8]=false;return b}[c]()}};continue}else if(2==b){addRandomTile=function(){var a=dr,b=a[3],c=a[1],d=a[2][4],e=a[3][10];let f;f=[];for(let a=0;a<grid[c0];a++){if(grid[a]===0){f[d](a)}}if(f[c0]>0){let g,h;h=f[Math[e](Math[a[4][17]]()*f[c0])];g=getRandomValue();grid[h]=g;tiles[d]({[b[17]]:g,[c[12]]:Math[e](h/size),[c[13]]:h%size,[b[18]]:true})}};continue}else if(3==b){loadReviews=function(){var a=dr,b=a[2],c=a[5];reviewLoading=true;callCloud(a[8][11],{})[b[5]](d=>{reviews=d&&d[b[16]]||[];reviewAverage=d&&d[c[22]]||0;hasUserReviewed=!!(d&&d[a[10][3]]);reviewLoading=false;draw()})[a[3][8]](d=>{reviewLoading=false;console[b[6]](a[18][0],d[c[7]]);reviews=[];reviewAverage=0;hasUserReviewed=false;draw()})};continue}else if(4==b){touchEnd=function(a){var b=dr,c=du,d=b[5],e=b[1][3];let f,g,h,i,j,k;for(let l of dx){if(-1==l){}else if(0==l){if(gameOver){newGame();draw();return}continue}else if(1==l){k=c[7];continue}else if(2==l){if(showReviewModal){return}continue}else if(3==l){if(gameWon){return}continue}else if(4==l){if(Math[e](g)<k&&Math[e](h)<k){if(gameWon){nextLevel();draw()}return}continue}else if(5==l){if(Math[e](g)>Math[e](h)){if(g>0){moveRight()}else{moveLeft()}}else{if(h>0){moveDown()}else{moveUp()}}continue}if(6==l){i=j[d[12]];continue}else if(7==l){f=j[d[13]];continue}else if(8==l){draw();continue}else if(9==l){g=i-startX;continue}else if(10==l){if(currentTab!==b[2][7]&&currentTab!==b[7][5]){return}continue}else if(c[0]==l){if(touchTarget){handleTabClick(touchTarget);touchTarget=null;return}continue}if(c[29]==l){h=f-startY;continue}else if(c[32]==l){j=a[b[12][2]][0];continue}}};continue}else if(5==b){revive=function(){var a=dr,b=a[3],c=a[1][4],d=a[2][10],e=b[9],f=b[5],g=a[8][0];if(reviveCount>=maxReviveCount)return;if(gameHistory[c0]>=2){let a;gameHistory[c]();a=gameHistory[c]();grid=a[d];tiles=a[e];score=a[f];totalScore=a[g];gameOver=false;reviveCount++;draw()}else if(gameHistory[c0]===1){let a;a=gameHistory[c]();grid=a[d];tiles=a[e];score=a[f];totalScore=a[g];gameOver=false;reviveCount++;draw()}};continue}else if(6==b){init=function(){var a=dr,b=a[10],c=a[8],d=a[3],e=a[2];let f;w0_c:for(let g of dy){switch(g){case 0:canvas[a[4][3]]=f[b[4]];break;case 1:wx[c[12]](touchEnd);break;case 2:f=wx[a[15][0]]();break;case 3:canvas[d[0]]=f[a[9][5]];break;case 4:asyncBoot();break;case 5:drawLoading(a[6][8]);break;case 6:wx[b[5]](touchStart);break;case 7:try{wx[d[12]][e[17]](function(){var a=dr,Cx=a[1][6],Cy=a[7][10];let b;b={[Cx]:0,[Cy]:0};b[Cx]=cloudEnvId||undefined;b[Cy]=true;return b}[d[2]]());cloudReady=true;console[a[1][1]](a[29][0],cloudEnvId)}catch(b){cloudReady=false;console[e[6]](a[22][0],b)};break;case 8:canvas=wx[b[6]]();break;case 9:ctx=canvas[c[13]](a[0][3]);break;default:break}}};continue}else if(7==b){newGame=function(){var a=dr,b=du;let c=0,d=dR;w0_h:while(c<b[0]){++c;switch(d){case 9:gameWon=false;d=3;break;case 7:addRandomTile();d=2;break;case 5:grid=Array(size*size)[a[2][1]](0);d=10;break;case 10:tiles=[];d=6;break;case 0:draw();d=5;break;case 1:if(!isChallengeMode){if(level<=8){targetScore=Math[a[1][7]](2,level+1)}else{targetScore=b[35]}};d=7;break;case 8:gameOver=false;d=9;break;case 3:gameHistory=[];d=4;break;case 6:score=isChallengeMode?10:level<=8?2:4;d=8;break;case 4:reviveCount=0;d=1;break;case 2:addRandomTile();d=0;break;default:break}}};continue}else if(8==b){var d2=[cx,cM,cB,6,2,cF,4,cP,0,ct,cT,8,7,10,cC,cn,5,9,cI,cl,cQ,cK,cN,cV,cE,cz,cD,3,1];if(bS)dv(d2,cE,cF);if(c((bf+L+bn)/3)>=c(e((a(bn)+a(L)+a(bf))/3)))dv(d2,8,cM);if(bZ)dv(d2,0,3);drawReviewModal=function(){var a=dr,b=du,c=a[2],d=a[13],e=a[6],f=a[7],g=a[5],h=a[4],i=a[3],j=a[0],k=a[10],l=a[11],m=a[8],n=a[9],o=b[0],p=b[12],q=b[27],r=b[37],s=b[32],t=b[33],u=b[26],v=b[38],w=b[39],x=b[4],y=b[14],z=b[9],A=b[17],B=b[23],C=b[15],D=b[19],E=b[13],F=b[21],G=b[40],H=b[10],I=b[3],J=b[29],K=b[41],L=b[34],M=b[6],N=b[5],O=b[25],P=b[22],Q=b[43],R=b[28],S=b[20],T=b[18],U=b[1],V=b[7],W=b[45],X=b[46];var Y=b[24],Z=b[16],_0=b[31],_1=b[47],_2=b[2],_3=b[11],_4=b[48],_5=b[8],_6=b[49],_7=b[50],_8=b[51],_9=b[52],ba=b[30],bb=c[0],bc=m[2],bd=a[13][3],be=c[1],bf=a[6][0],bg=f[0],bh=g[0],bi=f[1],bj=h[1],bk=i[0],bl=n[1],bm=g[5],bn=f[7],bo=a[1][2],bp=m[4],bq=c[8],br=h[3],bs=g[8],bt=h[9],bu=f[8],bv=g[1],bw=g[2],bx=n[2],by=h[18],bz=i[5],bA=c[13];let bB,bC,bD,bE,bF,bG,bH,bI,bJ,bK,bL,bM,bN,bO,bP,bQ,bR,bS,bT,bU,bV,bW;let bX=0,bY=dS;w0_r:while(bX<b[36]){++bX;switch(bY){case o:drawRoundedRect(ctx,bU+p,bC,bQ-q,r,6);bY=s;break;case t:ctx[bb]=bc;bY=u;break;case v:bS=w;bY=x;break;case r:ctx[bb]=bd;bY=y;break;case z:ctx[be]();bY=7;break;case A:ctx[bf](bJ,bU+B,bC+C);bY=D;break;case E:ctx[bg]=bh;bY=r;break;case y:ctx[bi]=bj;bY=F;break;case G:ctx[bb]=d[4];bY=H;break;case I:bQ=canvas[bk]-q;bY=J;break;case K:drawRoundedRect(ctx,bH,bD,bT,bT,L);bY=z;break;case L:ctx[bf](c7,bH+bT/2,bD+y);bY=M;break;case s:ctx[be]();bY=5;break;case 5:ctx[bl]=bm;bY=N;break;case 6:bM=bS+b[42];bY=8;break;case O:bN=["",j[4],j[5],j[6],j[7],c[18]];bY=P;break;case Q:ctx[bg]=g[14];bY=R;break;case F:ctx[bf](k[7],canvas[bk]/2,bS+b[44]);bY=6;break;case R:drawRoundedRect(ctx,bU,bS,bQ,bW,J);bY=S;break;case P:ctx[bf](bN[userReviewScore]||"",canvas[bk]/2,bM+bG+J);bY=C;break;case J:bU=p;bY=v;break;case 4:bJ=bK[c0]>bR?bK[bn](0,bR-3)+bo:bK;bY=A;break;case T:ctx[bg]=bh;bY=U;break;case B:bP=6;bY=0;break;case V:ctx[bb]=bp;bY=W;break;case u:ctx[bi]=bq;bY=X;break;case Y:ctx[bg]=bm;bY=K;break;case Z:ctx[bg]=bh;bY=t;break;case _0:ctx[bg]=a[16][0];bY=p;break;case 3:ctx[bb]=bc;bY=2;break;case x:bW=canvas[br]-_1;bY=Q;break;case 0:bL=5*bG+4*bP;bY=9;break;case H:ctx[bi]=bj;bY=L;break;case _2:bD=bS+6;bY=Y;break;case D:if(!userReviewComment){ctx[bg]=bs;ctx[bf](e[9],bU+B,bC+_3)};bY=_0;break;case 10:ctx[bt]();bY=Z;break;case N:ctx[bu]=1;bY=10;break;case S:ctx[be]();bY=T;break;case C:bC=bM+bG+F;bY=q;break;case 7:ctx[bg]=bh;bY=G;break;case q:ctx[bg]=bv;bY=o;break;case _4:ctx[bg]=bh;bY=3;break;case 1:ctx[bi]=bj;bY=_3;break;case M:ctx[bg]=bh;bY=V;break;case _5:bH=bU+bQ-bT-10;bY=_2;break;case p:ctx[e[3]](0,0,canvas[bk],canvas[br]);bY=I;break;case 2:ctx[bi]=bj;bY=O;break;case _6:bR=Math[i[10]]((bQ-_7)/7);bY=4;break;case _8:for(let a=0;a<5;a++){let b;b=bO+a*(bG+bP);drawStar(b+bG/2,bM+bG/2,bG,a<userReviewScore)};bY=_4;break;case W:ctx[bi]=bj;bY=_9;break;case 9:bO=(canvas[bk]-bL)/2;bY=_8;break;case U:ctx[bb]=d[7];bY=1;break;case _3:ctx[bf](c[19],canvas[bk]/2,bS+V);bY=ba;break;case X:bK=userReviewComment?userReviewComment:f[13];bY=_6;break;case ba:bT=B;bY=_5;break;case 8:bG=B;bY=B;break;case _9:if(reviewAverage>0){ctx[bf](`平均评分: ${reviewAverage[g[23]](1)}  ★  |  共 ${reviews[c0]} 条`,canvas[bk]/2,bS+Q)}else{ctx[bf](k[8],canvas[bk]/2,bS+Q)};bY=E;break;default:break}}let bZ;let b0=0,b1=dT;w0_t:while(b0<C){++b0;switch(b1){case T:ctx[bi]=bj;b1=9;break;case s:bF=0;b1=5;break;case 9:ctx[bf](k[9],canvas[bk]/2,bB+p);b1=M;break;case 8:ctx[h[5]](bU+bQ-p,bB);b1=2;break;case 4:ctx[bb]=bd;b1=T;break;case o:if(!hasUserReviewed){let a;a=bC+b[53];ctx[bg]=userReviewScore>0?bw:bm;drawRoundedRect(ctx,canvas[bk]/2-_7,a,_1,_2,8);ctx[be]();ctx[bg]=userReviewScore>0?bh:bs;ctx[bb]=d[8];ctx[bi]=bj;ctx[bf](c[20],canvas[bk]/2,a+F);bZ=a+_2}else{ctx[bg]=g[24];ctx[bb]=bp;ctx[bi]=bj;ctx[bf](l[6],canvas[bk]/2,bC+b[54]);bZ=bC+w};b1=0;break;case 10:ctx[bg]=bh;b1=4;break;case L:ctx[bl]=g[25];b1=J;break;case 5:w0_a:for(let b=0;b<reviews[c0];b++){let c,d,f,h,k,l,m,n,q;w0_v:for(let t of d2){switch(t){case 0:if(ctx[bx](d)[bk]>f){while(ctx[bx](q+bo)[bk]>f&&q[c0]>0){q=q[bn](0,q[c0]-1)}q+=bo};break;case 1:ctx[bf](q,bU+F,k+v);break;case 2:ctx[bg]=bv;break;case 3:ctx[bi]=bq;break;case 4:ctx[be]();break;case 5:q=d;break;case 6:bF++;break;case 7:m=l;break;case 8:h=bQ-w;break;case 9:ctx[bb]=bc;break;case 10:if(ctx[bx](l)[bk]>h){while(ctx[bx](m+bo)[bk]>h&&m[c0]>0){m=m[bn](0,m[c0]-1)}m+=bo};break;case o:n=c8[by](c[bz]||0)+c9[by](5-(c[bz]||0));break;case J:ctx[bf](n,bU+F,k+_2);break;case s:ctx[bi]=bq;break;case L:d=c[g[9]]||g[26];break;case U:if(c[bA]){ctx[bg]=bs;ctx[bb]=a[8][14];ctx[bi]=i[11];ctx[bf](c[bA],bU+bQ-F,k+C)};break;case T:drawRoundedRect(ctx,bU+J,k,bQ-H,bE-8,6);break;case M:ctx[bb]=bd;break;case C:ctx[bf](m,bU+F,k+C);break;case Z:ctx[bg]=bh;break;case p:ctx[bg]=bw;break;case y:if(k+bE>bV)break w0_a;break;case F:ctx[bi]=bq;break;case u:ctx[bb]=bc;break;case H:c=reviews[b];break;case A:f=bQ-r;break;case O:k=bI+bF*bE;break;case R:l=c[e[2]]||j[2];break;case B:ctx[bg]=bh;break;default:break}}};b1=7;break;case M:bI=bB+V;b1=6;break;case 0:bB=bZ+10;b1=L;break;case 3:bE=G;b1=s;break;case 7:if(reviews[c0]===0&&!reviewLoading){ctx[bg]=bs;ctx[bb]=bp;ctx[bi]=bj;ctx[bf](l[7],canvas[bk]/2,bI+F)};b1=o;break;case 1:ctx[f[9]]();b1=U;break;case J:ctx[bu]=1;b1=1;break;case 2:ctx[bt]();b1=10;break;case 6:bV=bS+bW-J;b1=3;break;case U:ctx[h[10]](bU+p,bB);b1=8;break;default:break}}};continue}if(9==b){resetLevel=function(){var a=dr,b=a[3];level=1;totalScore=0;score=4;targetScore=4;for(let c=0;c<challengeLevels[c0];c++){let d;challengeLevels[c][b[3]]=a[4][4];d=challengeLevels[c][a[1][0]];currentUser[d]=function(){var a=dr,Dg=a[3][1],Dh=a[6][1];let b;b={[Dg]:0,[Dh]:0};b[Dg]=false;b[Dh]=false;return b}[b[2]]()}try{wx[a[15][1]](a[11][4])}catch(a){}saveGameData();newGame()};continue}else if(10==b){moveUp=function(){var a=dr,b=a[2][4];let c,d;c=false;d=[...grid];for(let e=0;e<size;e++){let f;f=[];for(let a=0;a<size;a++){if(d[a*size+e]!==0)f[b](d[a*size+e])}for(let b=0;b<f[c0]-1;b++){if(f[b]===f[b+1]){f[b]*=2;f[a[4][11]](b+1,1)}}while(f[c0]<size)f[b](0);for(let a=0;a<size;a++){if(d[a*size+e]!==f[a])c=true;d[a*size+e]=f[a]}}if(c){saveGameState();grid=d;addRandomTile();checkWin();checkGameOver();draw()}};continue}if(cl==b){applyChallengeUnlockRules=function(){var a=dr,b=a[3],c=a[11],d=b[3],e=a[7][2],f=c[0],g=a[6][1],h=b[2],i=c[1],j=c[2],k=c[3];let l;l=false;if(level>=5&&challengeLevels[0][d]!==cY){if(challengeLevels[0][d]!==e||currentUser[f][g]!==true){challengeLevels[0][d]=e;currentUser[f]=function(){var a=dr,Dw=a[3][1],Dx=a[6][1];let b;b={[Dw]:0,[Dx]:0};b[Dw]=false;b[Dx]=true;return b}[h]();l=true}}if(level>=8&&challengeLevels[1][d]!==cY){if(challengeLevels[1][d]!==e||currentUser[i][g]!==true){challengeLevels[1][d]=e;currentUser[i]=function(){var a=dr,Dz=a[3][1],DA=a[6][1];let b;b={[Dz]:0,[DA]:0};b[Dz]=false;b[DA]=true;return b}[h]();l=true}}if(level>=10&&challengeLevels[2][d]!==cY){if(challengeLevels[2][d]!==e||currentUser[j][g]!==true){challengeLevels[2][d]=e;currentUser[j]=function(){var a=dr,DC=a[3][1],DD=a[6][1];let b;b={[DC]:0,[DD]:0};b[DC]=false;b[DD]=true;return b}[h]();l=true}}if(totalScore>=du[55]&&challengeLevels[3][d]!==cY){if(challengeLevels[3][d]!==e||currentUser[k][g]!==true){challengeLevels[3][d]=e;currentUser[k]=function(){var a=dr,DF=a[3][1],DG=a[6][1];let b;b={[DF]:0,[DG]:0};b[DF]=false;b[DG]=true;return b}[h]();l=true}}return l};continue}else if(cQ==b){moveRight=function(){var a=dr,b=a[2][4];let c,d;c=false;d=[...grid];for(let e=0;e<size;e++){let f;f=[];for(let a=size-1;a>=0;a--){if(d[e*size+a]!==0)f[b](d[e*size+a])}for(let b=0;b<f[c0]-1;b++){if(f[b]===f[b+1]){f[b]*=2;f[a[4][11]](b+1,1)}}while(f[c0]<size)f[b](0);f[a[5][15]]();for(let a=0;a<size;a++){if(d[e*size+a]!==f[a])c=true;d[e*size+a]=f[a]}}if(c){saveGameState();grid=d;addRandomTile();checkWin();checkGameOver();draw()}};continue}if(cT==b){checkGameOver=function(){var a=dr;if(grid[a[3][19]](a=>a!==0)){for(let a=0;a<size;a++){for(let b=0;b<size;b++){let c;c=grid[a*size+b];if(b<size-1&&c===grid[a*size+b+1])return;if(a<size-1&&c===grid[(a+1)*size+b])return}}if(reviveCount<maxReviveCount){gameOver=true}else{newGame()}}};continue}else if(cV==b){touchStart=function(a){var b=dr,c=b[5];let d;d=a[c[27]][0];startX=d[c[12]];startY=d[c[13]];touchTarget=getTouchTarget(startX,startY)};continue}else if(cn==b){challengeStateFromCloud=function(a){var b=dr,c=b[4][4];if(!a)return c;if(a[b[3][1]]===true)return cY;if(a[b[6][1]]===true)return b[7][2];return c};continue}if(cF==b){doSubmitReview=function(){var a=dr,b=a[3],c=a[9][0],d=a[4][6],e=a[7][6],f=a[3][2];if(!currentUser[c]&&!currentUser[d]){wx[e](function(){var a=dr,DV=a[3][4],DW=a[2][3];let b;b={[DV]:0,[DW]:0};b[DV]=a[9][6];b[DW]=a[2][9];return b}[f]());return}console[a[1][1]](a[22][1],currentUser[c],a[5][28],currentUser[d],a[4][23],userReviewScore);callCloud(a[8][15],function(){var a=dr,DY=a[9][0],DZ=a[3][5],D0=a[5][9];let b;b={[DY]:0,[DZ]:0,[D0]:0};b[DY]=currentUser[DY];b[DZ]=userReviewScore;b[D0]=userReviewComment||"";return b}[f]())[a[2][5]](()=>{hasUserReviewed=true;userReviewComment="";wx[e](function(){var a=dr,D2=a[3][4],D3=a[2][3];let b;b={[D2]:0,[D3]:0};b[D2]=a[3][20];b[D3]=a[5][6];return b}[f]());loadReviews()})[b[8]](c=>{console[b[13]](a[19][0],c);wx[e](function(){var a=dr,b=a[2],D6=a[3][4],D7=a[2][3];let d;d={[D6]:0,[D7]:0};d[D6]=a[4][24]+(c[a[5][7]]||b[21]);d[D7]=b[9];return d}[f]())})};continue}else if(ct==b){finishBoot=function(a){let b;loadLocalFallback();b=applyChallengeUnlockRules();newGame();if(b){saveGameData()}else{saveGameData(a!==true)}isLoading=false;draw()};continue}else if(cC==b){getReviewModalRect=function(){return function(){var a=dr,b=du,c=a[4],Ea=c[12],Eb=c[13],Ec=c[14],Ed=c[19];let d;d={[Ea]:0,[Eb]:0,[Ec]:0,[Ed]:0};d[Ea]=b[12];d[Eb]=b[39];d[Ec]=canvas[a[3][0]]-b[27];d[Ed]=canvas[a[4][3]]-b[47];return d}[dr[3][2]]()};continue}else if(cD==b){showReviewInput=function(){var a=dr;if(!showReviewModal)return;if(hasUserReviewed)return;wx[a[7][14]](function(){var a=dr,b=a[5],Eh=a[3][4],Ei=a[6][4],Ej=a[13][5],Ek=b[10],El=b[6],Em=a[2][11];let c;c={[Eh]:0,[Ei]:0,[Ej]:0,[Ek]:0,[El]:0,[Em]:0};c[Eh]=a[2][22];c[Ei]=true;c[Ej]=a[17][0];c[Ek]=userReviewComment||"";c[El]=b=>{if(b[a[5][29]]){userReviewComment=(b[Ek]||"")[a[7][7]](0,du[56])}draw()};c[Em]=()=>{draw()};return c}[a[3][2]]())};continue}else if(cz==b){drawLoading=function(a){var b=dr,c=du,d=b[5],e=b[6],f=b[4],g=b[7][0],h=b[3][0],i=b[4][3],j=b[2][0],k=b[6][0];ctx[g]=d[11];ctx[e[3]](0,0,canvas[h],canvas[i]);ctx[g]=d[0];ctx[j]=b[13][9];ctx[b[7][1]]=f[1];ctx[k](e[5],canvas[h]/2,canvas[i]/2-c[7]);ctx[j]=b[8][3];ctx[k](a||f[25],canvas[h]/2,canvas[i]/2+c[12])};continue}else if(cB==b){if(dn&&bW){db+=c4}if(dn&&bS){db+="PI"}dn=0;drawStar=function(a,b,c,d){var e=dr,f=e[7],g=e[4],h=e[1],i=e[5],j=h[8],k=h[9],l=e[4][5],m=i[2],n=i[5];ctx[f[9]]();for(let d=0;d<5;d++){let e,f,h,i,m,n;n=-Math[db]/2+d*(2*Math[db]/5);f=a+Math[j](n)*c/2;m=b+Math[k](n)*c/2;i=n+Math[db]/5;h=a+Math[j](i)*c/4.5;e=b+Math[k](i)*c/4.5;if(d===0)ctx[g[10]](f,m);else ctx[l](f,m);ctx[l](h,e)}ctx[f[11]]();ctx[f[0]]=d?m:n;ctx[e[2][1]]();ctx[e[9][1]]=d?m:n;ctx[f[8]]=1;ctx[g[9]]()};continue}else if(cI==b){loadLocalRanking=function(){var a=dr,b=a[5];try{let c;c=wx[a[12][0]](b[3]);if(c){let d;d=typeof c===a[4][26]?JSON[a[3][14]](c):c;if(Array[b[30]](d))return d}}catch(a){}return[]};continue}else if(cN==b){getTouchTarget=function(a,b){var c=dr,d=du,e=c[10],f=c[4],g=c[8],h=d[12],i=d[58],j=d[55],k=d[29],l=d[17],m=d[47],n=d[39],o=d[7],p=d[11],q=c[3][0],r=c[4][3],s=c[2][7],t=c[7][5],u=c[5][3];let v,w;if(showReviewModal){let g,m,n,o,p,r,s,t,u,v,w,x;for(let y of dC){if(-1==y){}else if(0==y){s=5*v+4*o;continue}else if(1==y){if(a>=t+h&&a<=t+x-h&&b>=u&&b<=u+d[52])return e[1];continue}else if(2==y){void({[f[12]]:t,[f[13]]:r,[f[14]]:x}=getReviewModalRect());continue}else if(3==y){return null;continue}else if(4==y){o=6;continue}else if(5==y){if(!hasUserReviewed){let e;e=u+d[57];if(a>=canvas[q]/2-i&&a<=canvas[q]/2+i&&b>=e&&b<=e+d[3]){return c[11][5]}}continue}else if(6==y){g=t+x-w-10;continue}else if(7==y){if(a>=g&&a<=g+w&&b>=n&&b<=n+w){return e[2]}continue}else if(8==y){v=d[33];continue}else if(9==y){for(let c=0;c<5;c++){let d;d=p+c*(v+o);if(a>=d&&a<=d+v&&b>=m&&b<=m+v){return e[0]+(c+1)}}continue}else if(10==y){p=(canvas[q]-s)/2;continue}else if(d[0]==y){m=r+j;continue}else if(k==y){w=d[23];continue}else if(d[32]==y){n=r+8;continue}else if(d[34]==y){u=m+v+l;continue}}}w=d[40];v=canvas[r]-w-k;if(b>=v){let b;b=canvas[q]/3;if(a<b)return s;if(a<b*2)return t;return u}if(currentTab===u){let c,e,f;c=canvas[q]/2;f=d[38];e=j;if(b>=e&&b<=e+f){if(a<c)return g[6];return g[7]}return null}if(currentTab===t&&!isChallengeMode){let e,f,h;f=m;e=n;h=d[1];for(let d=0;d<challengeLevels[c0];d++){let i;i=f+d*(e+h);if(a>=o&&a<=canvas[q]-o&&b>=i&&b<=i+e){return g[5]+challengeLevels[d][c[0][0]]}}return null}if(currentTab===s||isChallengeMode){let e,g,h,i;i=Math[c[1][5]](canvas[q]-d[50],canvas[r]-d[59])/size;h=10;g=d[60];e=g+size*i+(size-1)*h+l;if(!gameOver&&!gameWon){let f,g;f=canvas[q]-d[61];g=e+10;if(a>=f&&a<=f+n&&b>=g&&b<=g+o){return c[9][3]}}if(gameOver){if(reviveCount<maxReviveCount&&gameHistory[c0]>=1){let c,d;c=(canvas[q]-m)/2;d=e+l;if(a>=c&&a<=c+m&&b>=d&&b<=d+p)return f[20]}else{let d,f;d=(canvas[q]-m)/2;f=e+l;if(a>=d&&a<=d+m&&b>=f&&b<=f+p)return c[5][16]}}}return null};continue}else if(cx==b){getRandomValue=function(){if(level<=10){return 2}else{return Math[dr[4][17]]()<.9?2:4}};continue}else if(cE==b){hideReviewInput=function(){};continue}else if(cM==b){drawTile=function(a,b,c,d){var e=dr,f=e[2],g=e[5],h=e[4],i=e[6],j=e[3][2],k=e[7][0];let l,m;w0_E:for(let n of dU){switch(n){case 0:m=function(){var a=dr,b=du,c=a[5],K3=b[18],K4=b[62],K5=b[33],K6=b[63],K7=b[64],K8=b[68],K9=b[69],La=b[35],d=c[1],e=c[17];let f;w0_I:for(let a of dY){switch(a){case 0:f[K3]=d;break;case 1:f[K4]=d;break;case 2:f[K5]=d;break;case 3:f[4]=e;break;case 4:f[K6]=d;break;case 5:f[K7]=d;break;case 6:f={[b[65]]:0,[b[66]]:0,[b[67]]:0,[K3]:0,[K5]:0,[K7]:0,[K8]:0,[K9]:0,[K6]:0,[La]:0,[K4]:0};break;case 7:f[La]=d;break;case 8:return f;break;case 9:f[K9]=d;break;case 10:f[2]=e;break;case b[0]:f[8]=d;break;case b[29]:f[K8]=d;break;default:break}}}[j]();break;case 1:ctx[f[0]]=`bold ${d/3}px Arial`;break;case 2:ctx[k]=l[a]||g[31];break;case 3:drawRoundedRect(ctx,b,c,d,d,8);break;case 4:ctx[e[10][10]]=h[27];break;case 5:ctx[i[0]](a[i[10]](),b+d/2,c+d/2);break;case 6:ctx[k]=m[a]||g[1];break;case 7:ctx[e[7][1]]=h[1];break;case 8:l=function(){var a=dr,b=du,c=a[5],Lc=b[68],Ld=b[18],Le=b[33],Lf=b[64],Lg=b[69],Lh=b[63],Li=b[35],Lj=b[62];let d;w0_G:for(let a of dE){switch(a){case 0:d[Lc]=c[32];break;case 1:return d;break;case 2:d={[b[65]]:0,[b[66]]:0,[b[67]]:0,[Ld]:0,[Le]:0,[Lf]:0,[Lc]:0,[Lg]:0,[Lh]:0,[Li]:0,[Lj]:0};break;case 3:d[Li]=c[33];break;case 4:d[2]=c[34];break;case 5:d[8]=c[35];break;case 6:d[Ld]=c[36];break;case 7:d[Lj]=c[2];break;case 8:d[Lh]=c[37];break;case 9:d[Lf]=c[38];break;case 10:d[Le]=c[39];break;case b[0]:d[4]=c[40];break;case b[29]:d[Lg]=c[41];break;default:break}}}[j]();break;case 9:ctx[f[1]]();break;default:break}}};continue}else if(cP==b){applyLocalCache=function(a){var b=dr,c=b[3],d=b[11],e=c[1],f=b[4][7],g=b[8][0],h=d[0],i=c[3],j=d[1],k=d[2],l=d[3];if(typeof a[e]===f)level=a[e];if(typeof a[g]===f)totalScore=a[g];if(a[h]!==undefined)challengeLevels[0][i]=challengeStateFromCloud(a[h]);if(a[j]!==undefined)challengeLevels[1][i]=challengeStateFromCloud(a[j]);if(a[k]!==undefined)challengeLevels[2][i]=challengeStateFromCloud(a[k]);if(a[l]!==undefined)challengeLevels[3][i]=challengeStateFromCloud(a[l]);currentUser[e]=level;currentUser[g]=totalScore};continue}else if(cK==b){drawChallenge=function(){var a=dr,b=du,c=a[4],d=a[2],e=a[5],f=a[13],g=a[8],h=a[1],i=a[7],j=a[3],k=b[29],l=b[50],m=b[7],n=b[0],o=b[37],p=i[1],q=a[4][1],r=a[6][0],s=j[0],t=i[0],u=a[5][0],v=a[2][0],w=j[3],x=a[13][1];let y,z,A;let B=0,C=dV;w0_A:while(B<k){++B;switch(C){case 0:ctx[p]=q;C=10;break;case 2:ctx[r](d[14],canvas[s]/2,l);C=3;break;case 5:ctx[r](a[10][11],canvas[s]/2,y+challengeLevels[c0]*(A+z)+m);C=4;break;case 10:ctx[t]=u;C=n;break;case 9:for(let i=0;i<challengeLevels[c0];i++){let j,q;for(let u of dZ){if(-1==u){}else if(0==u){ctx[t]=e[4];continue}else if(1==u){ctx[p]=d[8];continue}else if(2==u){ctx[r](j[d[2]],l,q+b[4]);continue}else if(3==u){ctx[p]=a[3][11];continue}else if(4==u){ctx[t]=e[42];continue}else if(5==u){j=challengeLevels[i];continue}else if(6==u){ctx[v]=f[0];continue}else if(7==u){ctx[r](`目标: ${j[c[2]]}`,l,q+l);continue}else if(8==u){ctx[v]=g[8];continue}else if(9==u){if(j[w]===c[4]){ctx[t]=e[14];ctx[v]=x;ctx[r](h[14],canvas[s]-l,q+o)}else if(j[w]===cY){ctx[t]=e[18];ctx[v]=x;ctx[r](h[15],canvas[s]-l,q+o)}else{ctx[t]=e[2];ctx[v]=x;ctx[r](h[16],canvas[s]-l,q+o)}continue}else if(10==u){q=y+i*(A+z);continue}else if(n==u){ctx[d[1]]();continue}else if(k==u){drawRoundedRect(ctx,m,q,canvas[s]-l,A,8);continue}}};C=0;break;case 6:ctx[v]=f[6];C=8;break;case 7:A=b[39];C=1;break;case 4:ctx[t]=u;C=6;break;case n:ctx[v]=g[9];C=5;break;case 1:z=b[1];C=9;break;case 3:y=b[47];C=7;break;case 8:ctx[p]=q;C=2;break;default:break}}};continue}if(cG==b){if(cc)dH[c5]();drawRanking=function(){var a=dr,b=du,c=a[2],d=a[6],e=a[3],f=a[5],g=a[1],h=a[8],i=a[13],j=a[7],k=b[1],l=b[21],m=b[33],n=b[29],o=b[18],p=b[3],q=b[0],r=b[32],s=b[34],t=b[39],u=b[55],v=b[26],w=c[1],x=a[6][0],y=j[1],z=a[4][1],A=j[0],B=f[2],C=f[4],D=e[0],E=e[1],F=c[0],G=a[8][3],H=f[0];let I,J,K,L,M,N,O;w0_x:for(let j of dG){switch(j){case 0:drawRoundedRect(ctx,k,M,O-l,L,6);break;case 1:ctx[w]();break;case 2:ctx[x](c[23],O/2,M+m);break;case 3:L=b[38];break;case 4:ctx[y]=z;break;case 5:I=n;break;case 6:ctx[A]=rankingSort===e[5]?B:C;break;case 7:if(rankingCache&&rankingCache[c0]>0){for(let b=0;b<Math[g[5]](rankingCache[c0],5);b++){let g,j,l,m;for(let t of d0){if(-1==t){}else if(0==t){ctx[x](`总分: ${l[h[0]]||0}`,canvas[D]-o,g+p);continue}else if(1==t){drawRoundedRect(ctx,8,g,canvas[D]-o,K,8);continue}else if(2==t){l=rankingCache[b];continue}else if(3==t){g=N+b*(K+I);continue}else if(4==t){ctx[w]();continue}else if(5==t){j=l[E]||1;continue}else if(6==t){ctx[x](`${b+1}`,o,g+p);continue}else if(7==t){ctx[x](m,p,g+p);continue}else if(8==t){ctx[x](`关数: ${j}`,canvas[D]*.65,g+p);continue}else if(9==t){ctx[F]=G;continue}else if(10==t){ctx[A]=f[1];continue}else if(q==t){ctx[A]=b===0?B:b===1?f[43]:b===2?f[44]:C;continue}else if(n==t){ctx[y]=e[11];continue}else if(r==t){ctx[y]=c[8];continue}else if(s==t){m=l[d[2]]||l[h[1]]||a[0][2];continue}else if(k==t){ctx[F]=i[0];continue}if(o==t){ctx[F]=G;continue}}}}else if(rankingLoading){ctx[A]=H;ctx[F]=h[16];ctx[y]=z;ctx[x](d[11],canvas[D]/2,N+t)}else{ctx[A]=H;ctx[F]=h[17];ctx[y]=z;ctx[x](c[24],canvas[D]/2,N+u)};break;case 8:ctx[x](e[21],O+O/2,M+m);break;case 9:ctx[A]=H;break;case 10:ctx[A]=H;break;case q:ctx[y]=z;break;case n:N=J;break;case r:J=b[70];break;case s:drawRoundedRect(ctx,O+8,M,O-v,L,6);break;case k:K=b[50];break;case o:ctx[A]=rankingSort===E?B:C;break;case b[6]:O=canvas[D]/2;break;case b[15]:ctx[F]=i[6];break;case b[16]:ctx[F]=i[1];break;case b[12]:ctx[A]=H;break;case b[14]:ctx[x](g[10],canvas[D]/2,t);break;case l:ctx[w]();break;case v:M=u;break;default:break}}};continue}if(cu==b){loadLocalFallback=function(){var a=dr,b=a[8],c=a[3][1],d=a[4][7],e=b[0],f=a[6][2],g=b[1];try{let b;b=wx[a[12][0]](a[11][4]);if(b){if(typeof b[c]===d)level=b[c];if(typeof b[e]===d)totalScore=b[e];if(b[f])currentUser[f]=b[f];if(b[g])currentUser[f]=b[g]}}catch(a){}};continue}else if(cs==b){moveLeft=function(){var a=dr,b=a[2][4];let c,d;c=false;d=[...grid];for(let e=0;e<size;e++){let f;f=[];for(let a=0;a<size;a++){if(d[e*size+a]!==0)f[b](d[e*size+a])}for(let b=0;b<f[c0]-1;b++){if(f[b]===f[b+1]){f[b]*=2;f[a[4][11]](b+1,1)}}while(f[c0]<size)f[b](0);for(let a=0;a<size;a++){if(d[e*size+a]!==f[a])c=true;d[e*size+a]=f[a]}}if(c){saveGameState();grid=d;addRandomTile();checkWin();checkGameOver();draw()}};continue}else if(cU==b){nextLevel=function(){var a=dr,b=a[7],c=a[4],d=a[9],e=a[11],f=a[12],g=a[3],h=a[1],i=a[0][0],j=g[3],k=h[0],l=g[2],m=h[1],n=a[7][3],o=a[4][2];if(!isChallengeMode){level++;if(level<=8){totalScore+=2;targetScore=Math[a[1][7]](2,level+1);score=2}else{totalScore+=4;targetScore=du[35];score=4}}else{let d,e;totalScore+=10;score=10;d=challengeLevels[b[12]](a=>a[i]===currentChallengeId);if(d!==-1){challengeLevels[d][j]=cY;currentUser[challengeLevels[d][k]]=function(){var a=dr,Gh=a[3][1],Gi=a[6][1];let b;b={[Gh]:0,[Gi]:0};b[Gh]=true;b[Gi]=true;return b}[l]();console[m](a[24][0],challengeLevels[d][k],dd,JSON[n](currentUser[challengeLevels[d][k]]))}e=d+1;if(e<challengeLevels[c0]){let d;d=challengeLevels[e][k];if(challengeLevels[e][j]===c[4]){challengeLevels[e][j]=b[2];currentUser[d]=function(){var a=dr,Gk=a[3][1],Gl=a[6][1];let b;b={[Gk]:0,[Gl]:0};b[Gk]=false;b[Gl]=true;return b}[l]();console[m](a[26][0],d)}currentChallengeId=challengeLevels[e][i];challengeTarget=challengeLevels[e][o];targetScore=challengeLevels[e][o]}else{console[m](de)}}console[m](a[28][0],currentUser[d[0]],c[21],level,d[4],totalScore);console[m](a[21][0],JSON[n](currentUser[e[0]]),f[3],JSON[n](currentUser[e[1]]),f[4],JSON[n](currentUser[e[2]]),f[5],JSON[n](currentUser[e[3]]));saveGameData();newGame();draw()};continue}else if(cw==b){saveGameState=function(){var a=dr,b=a[3];gameHistory[a[2][4]](function(){var a=dr,b=a[3],Gq=a[2][10],Gr=b[9],Gs=b[5],Gt=a[8][0];let c;c={[Gq]:0,[Gr]:0,[Gs]:0,[Gt]:0};c[Gq]=[...grid];c[Gr]=JSON[a[3][14]](JSON[a[7][3]](tiles));c[Gs]=score;c[Gt]=totalScore;return c}[b[2]]());if(gameHistory[c0]>10){gameHistory[b[22]]()}};continue}else if(co==b){callCloud=function(a,b){var c=dr,d=c[3];if(!cloudReady){console[c[2][6]](c[28][1],a);return Promise[c[4][28]](new Error(c[13][10]))}console[c[1][1]](c[18][1],a,d[23],JSON[c[7][3]](b||{}));return new Promise((e,f)=>{wx[d[12]][c[10][12]](function(){var c=dr,d=c[5],g=c[3],h=c[11],i=c[2],GB=i[2],GC=i[12],GD=c[5][6],GE=i[11],j=c[7][3],k=c[4][8];let l;l={[GB]:0,[GC]:0,[GD]:0,[GE]:0};l[GB]=d[45];l[GC]=Object[c[4][29]](function(){var b=dr;let c;c=function(){var a=dr,GI=a[4][15];let b;b={[GI]:0};b[GI]=0;return b}[b[3][2]]();c[b[4][15]]=a;return c}[g[2]](),b||{});l[GD]=b=>{console[c[1][1]](h[8],a,d[46],JSON[j](b[k])[c[7][7]](0,du[56]));if(b[k]&&b[k][c[2][25]]===0){e(b[k][GC])}else{f(new Error(b[k]&&b[k][d[7]]||c[15][2]))}};l[GE]=b=>{console[g[13]](h[9],a,g[24],JSON[j](b));f(b)};return l}[d[2]]())})};continue}if(cq==b){mergeCloudUser=function(a){var b=dr,c=du,d=b[11],e=b[3][1],f=b[8][0],g=b[9][0],h=b[5][19],i=b[6][2],j=b[1][11],k=b[4][7];let l;let m=0,n=dI;w0_e:while(m<c[0]){++m;switch(n){case 4:if(!a)return;n=7;break;case 5:l[b[5][47]]((c,d)=>{if(a[c]){currentUser[c]=a[c];challengeLevels[d][b[3][3]]=challengeStateFromCloud(a[c])}});n=10;break;case 9:currentUser[e]=level;n=8;break;case 8:currentUser[f]=totalScore;n=3;break;case 10:console[b[1][1]](b[23][0],currentUser[g]);n=4;break;case 7:if(a[h])currentUser[b[4][6]]=a[h];n=1;break;case 2:if(a[i])currentUser[i]=a[i];n=0;break;case 1:if(a[j])currentUser[g]=a[j];n=2;break;case 3:l=[d[0],d[1],d[2],d[3]];n=5;break;case 0:if(typeof a[e]===k)level=a[e];n=6;break;case 6:if(typeof a[f]===k)totalScore=a[f];n=9;break;default:break}}};continue}if(cy==b){drawRoundedRect=function(a,b,c,d,e,f){var g=dr,h=g[7],i=g[4][5],j=g[14][0];for(let k of dW){if(-1==k){}else if(0==k){a[i](b+d-f,c);continue}if(1==k){a[j](b,c+e,b,c+e-f);continue}else if(2==k){a[g[4][10]](b+f,c);continue}else if(3==k){a[i](b+d,c+e-f);continue}else if(4==k){a[h[11]]();continue}else if(5==k){a[i](b,c+f);continue}else if(6==k){a[i](b+f,c+e);continue}else if(7==k){a[j](b,c,b+f,c);continue}else if(8==k){a[j](b+d,c,b+d,c+f);continue}else if(9==k){a[h[9]]();continue}else if(10==k){a[j](b+d,c+e,b+d-f,c+e);continue}}};continue}else if(cR==b){moveDown=function(){var a=dr,b=a[2][4];let c,d;d=false;c=[...grid];for(let e=0;e<size;e++){let f;f=[];for(let a=size-1;a>=0;a--){if(c[a*size+e]!==0)f[b](c[a*size+e])}for(let b=0;b<f[c0]-1;b++){if(f[b]===f[b+1]){f[b]*=2;f[a[4][11]](b+1,1)}}while(f[c0]<size)f[b](0);f[a[5][15]]();for(let a=0;a<size;a++){if(c[a*size+e]!==f[a])d=true;c[a*size+e]=f[a]}}if(d){saveGameState();grid=c;addRandomTile();checkWin();checkGameOver();draw()}};continue}else if(cp==b){asyncBoot=function(){var a=dr,b=a[3],c=a[2],d=c[6],e=a[6][2],f=a[5][20],g=c[5];let h;if(bootStarted){console[d](a[25][0]);return bootPromise}bootStarted=true;h=wx[a[12][0]](a[11][4]);if(h&&h[e]){currentUser[e]=h[e];applyLocalCache(h)}if(cloudReady){bootPromise=Promise[f]()[g](()=>callCloud(a[9][7]))[g](a=>{if(a){mergeCloudUser(a);return a}return callCloud(b[25])})[g](a=>{if(a)mergeCloudUser(a);finishBoot(false)})[b[8]](b=>{console[d](a[27][0],b);finishBoot(false)})}else{bootPromise=Promise[f]();finishBoot(false)}return bootPromise};continue}else if(cJ==b){saveLocalRanking=function(a){var b=dr;try{wx[b[12][1]](b[5][3],JSON[b[7][3]](a))}catch(a){}};continue}else if(cO==b){if(bV)dL=cT;var d3=dL;handleTabClick=function(a){var b=dr,c=du,d=b[8],e=b[10],f=b[7],g=b[4],h=b[3],i=b[5],j=c[0],k=c[32],l=c[29],m=h[1],n=i[3],o=d[10],p=d[5],q=h[3],r=f[6],s=h[2],t=b[4][2],u=i[21],v=b[1][0],w=f[5],x=b[2][7],y=b[10][0];if(b8)dL=j;for(let h of dX){if(-1==h){}else if(0==h){if(a===d[6]){rankingSort=m;loadRanking();return}continue}else if(1==h){if(a===e[2]){showReviewModal=false;hideReviewInput();draw();return}continue}else if(2==h){if(a===d[7]){rankingSort=b[3][5];loadRanking();return}continue}else if(3==h){if(a===n){currentTab=n;saveGameData();loadRanking();return}continue}else if(4==h){if(a[o](p)){let d,e,h;let i=0,n=d3;w0_N:while(i<c[34]){++i;switch(n){case 5:return;n=k;break;case 2:if(h[q]===cY){wx[r](function(){var a=dr,Hs=a[3][4],Ht=a[2][3];let b;b={[Hs]:0,[Ht]:0};b[Hs]=a[4][30];b[Ht]=a[2][9];return b}[s]());return};n=l;break;case 8:e=challengeLevels[f[12]](a=>a[b[0][0]]===d);n=0;break;case 6:newGame();n=9;break;case 10:challengeTarget=h[t];n=3;break;case 9:draw();n=5;break;case 7:currentChallengeId=d;n=10;break;case 1:h=challengeLevels[e];n=j;break;case k:d=a[u](p,"");n=8;break;case 0:if(e===-1)return;n=1;break;case l:if(h[q]===g[4]){challengeLevels[e][q]=f[2];currentUser[h[v]]=function(){var a=dr,Hv=a[3][1],Hw=a[6][1];let b;b={[Hv]:0,[Hw]:0};b[Hv]=false;b[Hw]=true;return b}[s]();saveGameData()};n=4;break;case 4:isChallengeMode=true;n=7;break;case 3:targetScore=h[t];n=6;break;case j:if(e>0){let a,b;b=challengeLevels[e-1];a=currentUser[b[v]]&&currentUser[b[v]][m]===true;if(!a){wx[r](function(){var a=dr,c=a[2],Hz=a[3][4],HA=a[2][3];let d;d={[Hz]:0,[HA]:0};d[Hz]=`请先完成「${b[c[2]]}」`;d[HA]=c[9];return d}[s]());return}};n=2;break;default:break}}}continue}else if(5==h){if(a===g[20]){revive();return}continue}else if(6==h){if(a===b[11][5]){hideReviewInput();submitReview();return}continue}if(7==h){if(a===w){currentTab=w;isChallengeMode=false;draw();return}continue}else if(8==h){if(a===x){currentTab=x;isChallengeMode=false;newGame();draw();return}continue}else if(9==h){if(a[o](y)){userReviewScore=parseInt(a[u](y,""));draw();return}continue}else if(10==h){if(a===e[1]){if(hasUserReviewed)return;showReviewInput();return}continue}else if(j==h){if(a===b[9][3]){showReviewModal=true;loadReviews();draw();return}continue}else if(l==h){if(a===b[5][16]){newGame();return}continue}}};continue}else if(cA==b){dN[c1](1);draw=function(){var a=dr,b=du,c=a[7],d=a[2],e=a[6],f=a[5],g=a[13],h=a[0],i=a[8],j=a[4],k=b[12],l=b[32],m=b[11],n=b[52],o=b[48],p=b[24],q=b[47],r=b[27],s=b[26],t=b[8],u=b[15],v=b[29],w=b[16],x=b[7],y=b[33],z=b[46],A=b[45],B=b[2],C=b[38],D=b[23],E=b[20],F=b[5],G=b[0],H=b[61],I=b[34],J=b[21],K=b[31],L=b[4],M=b[19],N=b[6],O=b[30],P=b[1],Q=b[13],R=b[51],S=b[28],T=b[25],U=b[14],V=b[10],W=b[49],X=b[9];var Y=b[17],Z=b[37],_0=b[41],_1=b[3],_2=b[18],_3=b[22],_4=d[1],_5=c[0],_6=a[20][0],_7=e[3],_8=a[3][0],_9=f[0],ba=d[0],bb=g[0],bc=c[1],bd=j[1],be=d[15],bf=a[0][0],bg=d[2],bh=e[0],bi=f[4],bj=g[2],bk=f[2],bl=f[1],bm=j[3];var bn=[3,9,2,0,5,1,4,10,6,8,7];var bo=0;if(bK)dv(bn,6,10);if(bW)dv(bn,3,5);if(bJ)dv(bn,0,1);if(bL)bo+=5;if(b1)bo+=3;let bp,bq,br,bs,bt,bu,bv,bw,bx,by,bz,bA;let bB=0,bC=dM;w0_k:while(bB<b[43]){++bB;switch(bC){case 6:if(currentTab===c[5]&&!isChallengeMode){drawChallenge();drawTabBar();if(showReviewModal)drawReviewModal();return};bC=k;break;case l:ctx[_4]();bC=4;break;case m:bu=n;bC=1;break;case o:ctx[_4]();bC=8;break;case p:if(gameWon){ctx[_5]=_6;ctx[_7](0,bA+10,canvas[_8],q);ctx[_5]=_9;ctx[ba]=bb;ctx[bc]=bd;if(isChallengeMode){let a,b;a=challengeLevels[be](a=>a[bf]===currentChallengeId);b=a?a[bg]:d[14];ctx[bh](`${b}完成!`,canvas[_8]/2,bA+r)}else{ctx[bh](`第 ${level} 关完成!`,canvas[_8]/2,bA+r)}ctx[ba]=i[3];ctx[bh](c[15],canvas[_8]/2,bA+b[54])};bC=7;break;case s:if(isChallengeMode&&currentChallengeId){let a;a=challengeLevels[be](a=>a[bf]===currentChallengeId);br=a?a[bg]:`挑战目标: ${challengeTarget}`}else{br=`第 ${level} 关`};bC=t;break;case 2:if(isLoading){drawLoading();return};bC=u;break;case 3:ctx[bh](h[8],bq+bz/2,bv+u);bC=v;break;case w:ctx[_5]=bi;bC=9;break;case x:ctx[_5]=bi;bC=y;break;case z:bt=(canvas[_8]-(size*bx+(size-1)*by))/2;bC=A;break;case B:ctx[ba]=bj;bC=C;break;case 8:for(let a=0;a<size;a++){for(let b=0;b<size;b++){let c,d,e;e=bt+b*(bx+by);d=bp+a*(bx+by);ctx[_5]=f[48];drawRoundedRect(ctx,e,d,bx,bx,6);ctx[_4]();c=grid[a*size+b];if(c!==0){drawTile(c,e,d,bx)}}};bC=r;break;case t:ctx[ba]=i[8];bC=D;break;case E:ctx[_4]();bC=F;break;case 7:if(!gameOver&&!gameWon){let a,c,f,h;for(let j of d1){if(-1==j){}else if(0==j){h=x;continue}else if(1==j){ctx[_5]=bk;continue}else if(2==j){ctx[bh](d[26],a+f/2,c+k);continue}if(3==j){ctx[_4]();continue}else if(4==j){ctx[_5]=_9;continue}else if(5==j){ctx[ba]=i[9];continue}if(6==j){f=b[39];continue}else if(7==j){c=bA+10;continue}else if(8==j){ctx[bc]=bd;continue}else if(9==j){drawRoundedRect(ctx,a,c,f,h,6);continue}else if(10==j){ctx[bc]=bd;continue}else if(G==j){a=canvas[_8]-H;continue}else if(v==j){ctx[_5]=_9;continue}else if(l==j){ctx[ba]=g[11];continue}else if(I==j){ctx[bh](e[12],canvas[_8]/2,bA+x);continue}}};bC=J;break;case 4:ctx[_5]=bl;bC=K;break;case K:ctx[ba]=bj;bC=3;break;case L:drawRoundedRect(ctx,bq,bv,bz,bu,6);bC=l;break;case M:ctx[_7](0,0,canvas[_8],canvas[bm]);bC=N;break;case J:drawTabBar();bC=O;break;case G:ctx[_5]=bi;bC=L;break;case 10:ctx[bh](e[5],canvas[_8]/2,n);bC=P;break;case Q:ctx[bh](totalScore,bq+bz+bw+bz/2,bv+t);bC=w;break;case C:ctx[bh](h[9],bq+bz+bw+bz/2,bv+u);bC=R;break;case S:bq=(canvas[_8]-bs)/2;bC=T;break;case F:ctx[_5]=bl;bC=B;break;case U:ctx[bh](score,bq+bz/2,bv+t);bC=x;break;case V:ctx[ba]=i[18];bC=W;break;case 5:bs=bz*2+bw;bC=S;break;case 0:ctx[ba]=g[12];bC=X;break;case Y:ctx[bh](`${br}  目标: ${targetScore}`,canvas[_8]/2,H);bC=Z;break;case O:if(showReviewModal)drawReviewModal();bC=2;break;case r:bA=bp+size*bx+(size-1)*by+Y;bC=_0;break;case y:drawRoundedRect(ctx,bq+bz+bw,bv,bz,bu,6);bC=E;break;case _1:ctx[_5]=_9;bC=0;break;case I:ctx[bh](`复活次数: ${reviveCount}/${maxReviveCount}`,canvas[_8]/2,bA);bC=_2;break;case Z:bz=b[55];bC=m;break;case v:ctx[ba]=bb;bC=U;break;case _0:ctx[_5]=_9;bC=V;break;case R:ctx[ba]=bb;bC=Q;break;case 9:drawRoundedRect(ctx,bt-10,bp-10,size*bx+(size-1)*by+k,size*bx+(size-1)*by+k,v);bC=o;break;case 1:bw=k;bC=5;break;case D:ctx[_5]=_9;bC=Y;break;case T:bv=b[71];bC=G;break;case _2:if(gameOver){ctx[_5]=_6;ctx[_7](0,bA+10,canvas[_8],q);if(reviveCount<maxReviveCount&&gameHistory[c0]>=1){let a,b,c,d;w0_m:for(let e of bn){switch(e){case 0:a=m;break;case 1:drawRoundedRect(ctx,b,c,d,a,8);break;case 2:d=q;break;case 3:c=bA+p;break;case 4:ctx[bh](`复活 (${maxReviveCount-reviveCount})`,b+d/2,c+J);break;case 5:ctx[_5]=bk;break;case 6:ctx[ba]=bj;break;case 7:ctx[_4]();break;case 8:ctx[bc]=bd;break;case 9:b=(canvas[_8]-q)/2;break;case 10:ctx[_5]=_9;break;default:break}}}else{let a,b,c,e;let f=0,g=bo;w0_o:while(f<G){++f;switch(g){case 5:b=(canvas[_8]-q)/2;g=1;break;case 7:ctx[bh](d[27],b+a/2,c+J);g=5;break;case 3:ctx[ba]=bj;g=6;break;case 9:a=q;g=8;break;case 4:ctx[_5]=bl;g=3;break;case 8:e=m;g=0;break;case 6:ctx[bc]=bd;g=7;break;case 2:drawRoundedRect(ctx,b,c,a,e,8);g=10;break;case 10:ctx[_4]();g=4;break;case 1:c=bA+p;g=9;break;case 0:ctx[_5]=_9;g=2;break;default:break}}}};bC=p;break;case u:ctx[_5]=f[11];bC=M;break;case X:ctx[bc]=bd;bC=10;break;case _3:by=10;bC=z;break;case A:bp=b[60];bC=_1;break;case k:bx=Math[a[1][5]](canvas[_8]-b[50],canvas[bm]-b[59])/size;bC=_3;break;case N:if(currentTab===f[3]){drawRanking();drawTabBar();if(showReviewModal)drawReviewModal();return};bC=6;break;case P:br="";bC=s;break;case W:ctx[bc]=bd;bC=I;break;default:break}}};continue}if(cH==b){loadRanking=function(){var a=dr,b=a[3],c=a[2][5];rankingLoading=true;rankingCache=null;if(cloudReady){callCloud(a[8][19],function(){var a=dr,b=a[3],H8=a[4][22],H9=b[15],Ia=b[16],c=b[1];let d;d={[H8]:0,[H9]:0,[Ia]:0};d[H8]=rankingSort===c?c:a[8][0];d[H9]=a[2][28];d[Ia]=du[12];return d}[b[2]]())[c](a=>{rankingCache=a||[]})[b[8]](b=>{console[a[2][6]](a[15][3],b);rankingCache=[]})[c](()=>{rankingLoading=false;if(currentTab===a[5][3])draw()})}else{rankingCache=loadLocalRanking();rankingLoading=false;draw()}};continue}else if(cv==b){var d4=[1,9,5,3,4,6,0,8,7,2];if(bN)dv(d4,9,4);if(bR)dv(d4,8,7);if(g(2*a(f(bx*_5+F*s)))>g(a(bx*bx+F*F)+a(s*s+_5*_5)))dv(d4,4,8);saveGameData=function(a){var b=dr,c=b[25],d=b[9],e=b[3],f=b[8],g=b[1][1],h=b[3][2],i=b[12][1],j=b[2][6];console[g](c[1],a,d[8],cloudReady,b[4][21],level,d[4],totalScore);try{let k,l;l=function(){var a=dr,b=a[11],c=a[3],Io=b[1],Ip=a[6][2],Iq=c[5],Ir=a[8][0],Is=c[1],It=b[0],Iu=b[2],Iv=b[3];let d;for(let a of d4){if(-1==a){}else if(0==a){d[Io]=currentUser[Io];continue}else if(1==a){d={[Ip]:0,[Iq]:0,[Ir]:0,[Is]:0,[It]:0,[Io]:0,[Iu]:0,[Iv]:0};continue}if(2==a){d[Is]=level;continue}else if(3==a){d[Ir]=totalScore;continue}else if(4==a){return d;continue}else if(5==a){d[Iq]=score;continue}else if(6==a){d[It]=currentUser[It];continue}else if(7==a){d[Iu]=currentUser[Iu];continue}else if(8==a){d[Iv]=currentUser[Iv];continue}else if(9==a){d[Ip]=currentUser[Ip]||"";continue}}}[h]();wx[i](b[11][4],l);k=function(){var a=dr,Ix=a[6][6],Iy=a[8][1];let b;b={[Ix]:0,[Iy]:0};b[Ix]=currentUser[a[4][6]]||"";b[Iy]=currentUser[a[6][2]]||"";return b}[h]();wx[i](b[6][13],k);currentUser[e[1]]=level;currentUser[f[0]]=totalScore;if(a!==false&&cloudReady){console[g](dh,currentUser[d[0]]);callCloud(f[20],function(){var a=dr,b=a[11],IB=a[9][0],IC=a[3][1],ID=a[8][0],IE=b[0],IF=b[1],IG=b[2],IH=b[3];let c;c={[IB]:0,[IC]:0,[ID]:0,[IE]:0,[IF]:0,[IG]:0,[IH]:0};c[IB]=currentUser[IB];c[IC]=level;c[ID]=totalScore;c[IE]=currentUser[IE];c[IF]=currentUser[IF];c[IG]=currentUser[IG];c[IH]=currentUser[IH];return c}[h]())[b[2][5]](()=>{console[g](c[2])})[e[8]](a=>{console[j](c[3],a[b[5][7]])})}else if(!cloudReady){console[j](b[29][1])}}catch(a){console[j](b[16][1],a)}};continue}else if(cS==b){checkWin=function(){let a;a=isChallengeMode?challengeTarget:targetScore;if(grid[dr[2][29]](b=>b>=a))gameWon=true};continue}else if(cL==b){drawTabBar=function(){var a=dr,b=du,c=a[7],d=a[4],e=a[5],f=a[3],g=b[29],h=a[6][3],i=f[0],j=a[7][0],k=f[2],l=a[5][0];let m,n,o,p;for(let f of dO){if(-1==f){}if(0==f){ctx[c[8]]=1;continue}else if(1==f){ctx[h](0,p,canvas[i],n);continue}else if(2==f){ctx[d[9]]();continue}else if(3==f){ctx[d[10]](0,p);continue}else if(4==f){m=canvas[i]/3;continue}else if(5==f){ctx[c[9]]();continue}if(6==f){ctx[j]=e[11];continue}else if(7==f){ctx[a[9][1]]=e[5];continue}else if(8==f){ctx[d[5]](canvas[i],p);continue}if(9==f){n=b[40];continue}if(10==f){o=[function(){var a=dr,IT=a[0][0],IU=a[3][6];let b;b={[IT]:0,[IU]:0};b[IT]=a[2][7];b[IU]=a[0][10];return b}[k](),function(){var a=dr,IW=a[0][0],IX=a[3][6];let b;b={[IW]:0,[IX]:0};b[IW]=a[7][5];b[IX]=a[0][11];return b}[k](),function(){var a=dr,IZ=a[0][0],I0=a[3][6];let b;b={[IZ]:0,[I0]:0};b[IZ]=a[5][3];b[I0]=a[1][10];return b}[k]()];continue}else if(b[0]==f){p=canvas[d[3]]-n-g;continue}else if(g==f){for(let f=0;f<o[c0];f++){let g,i,k;k=o[f];i=f*m;g=currentTab===k[a[0][0]];if(g){ctx[j]=l;ctx[h](i+m/4,p+8,m/2,3)}ctx[j]=g?l:e[18];ctx[a[2][0]]=a[13][4];ctx[c[1]]=d[1];ctx[a[6][0]](k[a[3][6]],i+m/2,p+b[27])}continue}}};continue}}let canvas=null;let ctx=null;let grid=[];let tiles=[];let score=0;let totalScore=0;let gameOver=false;let gameWon=false;let size=4;let level=1;let targetScore=4;let reviveCount=0;let maxReviveCount=3;let gameHistory=[];let isChallengeMode=false;let challengeTarget=0;function d5(){if(dr[7][16]!==typeof Float32Array)Float32Array[dj]=1}let currentChallengeId=null;let startX=0;let startY=0;let currentTab=c3;let touchTarget=null;let rankingSort=c6;let cloudReady=false;let bootStarted=false;let bootPromise=null;let isLoading=true;let cloudEnvId=dk;let reviews=[];let reviewAverage=0;let userReviewScore=0;let userReviewComment="";let hasUserReviewed=false;let reviewLoading=false;let showReviewModal=false;let currentUser=function(){var a=dr,b=a[3],c=a[11],I4=a[4][6],I5=a[6][2],I6=a[9][0],I7=b[1],I8=a[8][0],I9=c[0],Ja=c[1],Jb=c[2],Jc=c[3],d=b[2];let e={[I4]:0,[I5]:0,[I6]:0,[I7]:0,[I8]:0,[I9]:0,[Ja]:0,[Jb]:0,[Jc]:0};e[I4]="";e[I5]="";e[I6]="";e[I7]=1;e[I8]=0;e[I9]=function(){var a=dr,b=a[3];let c=function(){var a=dr,Jf=a[3][1],Jg=a[6][1];let b={[Jf]:0,[Jg]:0};b[Jf]=0;b[Jg]=0;return b}[b[2]]();c[b[1]]=false;c[a[6][1]]=false;return c}[d]();e[Ja]=function(){var a=dr,b=a[3];let c=function(){var a=dr,Jk=a[3][1],Jl=a[6][1];let b={[Jk]:0,[Jl]:0};b[Jk]=0;b[Jl]=0;return b}[b[2]]();c[b[1]]=false;c[a[6][1]]=false;return c}[d]();e[Jb]=function(){var a=dr,b=a[3];let c=function(){var a=dr,Jp=a[3][1],Jq=a[6][1];let b={[Jp]:0,[Jq]:0};b[Jp]=0;b[Jq]=0;return b}[b[2]]();c[b[1]]=false;c[a[6][1]]=false;return c}[d]();e[Jc]=function(){var a=dr,b=a[3];let c=function(){var a=dr,Ju=a[3][1],Jv=a[6][1];let b={[Ju]:0,[Jv]:0};b[Ju]=0;b[Jv]=0;return b}[b[2]]();c[b[1]]=false;c[a[6][1]]=false;return c}[d]();return e}[cX]();const challengeLevels=[function(){var a=dr,b=a[2],JA=a[0][0],JB=a[2][2],JC=a[4][2],JD=a[3][3],JE=a[1][0];let c={[JA]:0,[JB]:0,[JC]:0,[JD]:0,[JE]:0};c[JA]=b[30];c[JB]=b[31];c[JC]=du[35];c[JD]=a[4][4];c[JE]=a[11][0];return c}[cX](),function(){var a=dr,b=a[4],JH=a[0][0],JI=a[2][2],JJ=a[4][2],JK=a[3][3],JL=a[1][0];let c={[JH]:0,[JI]:0,[JJ]:0,[JK]:0,[JL]:0};c[JH]=b[31];c[JI]=a[2][32];c[JJ]=du[62];c[JK]=b[4];c[JL]=a[11][1];return c}[cX](),function(){var a=dr,b=a[2],JO=a[0][0],JP=a[2][2],JQ=a[4][2],JR=a[3][3],JS=a[1][0];let c={[JO]:0,[JP]:0,[JQ]:0,[JR]:0,[JS]:0};c[JO]=b[33];c[JP]=b[34];c[JQ]=du[72];c[JR]=a[4][4];c[JS]=a[11][2];return c}[cX](),function(){var a=dr,b=a[4],JV=a[0][0],JW=a[2][2],JX=a[4][2],JY=a[3][3],JZ=a[1][0];let c={[JV]:0,[JW]:0,[JX]:0,[JY]:0,[JZ]:0};c[JV]=b[32];c[JW]=a[3][26];c[JX]=du[73];c[JY]=b[4];c[JZ]=a[11][3];return c}[cX]()];for(let a of dP){if(-1==a){}else if(0==a){continue}else if(1==a){continue}else if(2==a){continue}else if(3==a){continue}else if(4==a){continue}else if(5==a){continue}else if(6==a){continue}if(7==a){continue}else if(8==a){continue}else if(9==a){continue}else if(10==a){continue}else if(cl==a){continue}else if(cQ==a){continue}else if(cT==a){continue}else if(cV==a){continue}else if(cn==a){continue}if(cF==a){continue}if(ct==a){continue}else if(cC==a){continue}else if(cD==a){continue}else if(cz==a){continue}else if(cB==a){continue}else if(cI==a){continue}if(cN==a){continue}else if(cx==a){continue}else if(cE==a){continue}}let rankingCache=null;let rankingLoading=false;let d6=0,d7=dQ;w0_Q:while(d6<cD){++d6;switch(d7){case ct:;d7=10;break;case 2:;d7=6;break;case 5:;d7=3;break;case 9:;d7=1;break;case cT:init();d7=cV;break;case cQ:;d7=2;break;case 7:;d7=4;break;case cn:;d7=5;break;case 0:;d7=cQ;break;case 6:;d7=cC;break;case 3:;d7=8;break;case 8:;d7=cF;break;case cC:;d7=cn;break;case 10:;d7=0;break;case 1:;d7=ct;break;case cF:;d7=7;break;case 4:;d7=cT;break;case cl:;d7=9;break;case cV:;d7=cl;break;default:break}}//WXAG_OBF_PLUGIN_BY_(eyJhbGdvX3ZlcnNpb24iOjEsIm9iZl9sZXZlbCI6Mywib2JmX3N1Yl9sZXZlbCI6MCwid2F0ZXJtYXJrX2xldmVsIjoxLCJwbHVnaW5fcHJvdGVjdF9sZXZlbCI6MCwic2tpcF9yZW5hbWVfdmFyX2luX3RvcF9zY29wZSI6dHJ1ZSwiaXNfZGVidWciOjAsImZvcnRpZnlfYXBwaWQiOiJ3eDY2MzAzMmY4Zjg3M2VkMzIiLCJqb2JfaWQiOiI0NzExNDMiLCJ0aW1lX3N0ciI6IjIwMjYtMDgtMTUgMDk6MzI6MzUifQ==)
-//# sourceMappingURL=game.js.map
+let canvas = null
+let ctx = null
+let grid = []
+let tiles = []
+let score = 0
+let totalScore = 0
+let gameOver = false
+let gameWon = false
+let size = 4
+let level = 1
+let targetScore = 4
+let reviveCount = 0
+let maxReviveCount = 3
+let gameHistory = []
+let isChallengeMode = false
+let challengeTarget = 0
+let currentChallengeId = null
+let startX = 0
+let startY = 0
+let currentTab = 'home'
+let touchTarget = null
+let rankingSort = 'score'
+let cloudReady = false
+let bootStarted = false
+let bootPromise = null
+let isLoading = true
+let cloudEnvId = 'xiaoyouxi10124-d1gtaj0nd63e2279a'
+
+let reviews = []
+let reviewAverage = 0
+let userReviewScore = 0
+let userReviewComment = ''
+let hasUserReviewed = false
+let reviewLoading = false
+let showReviewModal = false
+
+let currentUser = {
+  openid: '',
+  nickName: '',
+  cloudUserId: '',
+  level: 1,
+  totalScore: 0,
+  challenge1024: { level: false, not_lock: false },
+  challenge2048: { level: false, not_lock: false },
+  challenge4096: { level: false, not_lock: false },
+  challenge8192: { level: false, not_lock: false }
+}
+
+const challengeLevels = [
+  { id: 'easy', name: '初级挑战', target: 1024, state: 'locked', key: 'challenge1024' },
+  { id: 'medium', name: '中级挑战', target: 2048, state: 'locked', key: 'challenge2048' },
+  { id: 'hard', name: '高级挑战', target: 4096, state: 'locked', key: 'challenge4096' },
+  { id: 'master', name: '大师级挑战', target: 8192, state: 'locked', key: 'challenge8192' }
+]
+
+function challengeStateFromCloud(c) {
+  if (!c) return 'locked'
+  if (c.level === true) return 'completed'
+  if (c.not_lock === true) return 'available'
+  return 'locked'
+}
+
+function challengeStateToCloud(state) {
+  switch (state) {
+    case 'completed': return { level: true, not_lock: true }
+    case 'available': return { level: false, not_lock: true }
+    default: return { level: false, not_lock: false }
+  }
+}
+
+function callCloud(action, data) {
+  if (!cloudReady) {
+    console.warn('[callCloud] cloud not ready, skip action:', action)
+    return Promise.reject(new Error('cloud not ready'))
+  }
+  console.log('[callCloud] → action:', action, 'data:', JSON.stringify(data || {}))
+  return new Promise((resolve, reject) => {
+    wx.cloud.callFunction({
+      name: 'gameApi',
+      data: Object.assign({ action: action }, data || {}),
+      success: (res) => {
+        console.log('[callCloud] ←', action, 'result:', JSON.stringify(res.result).substring(0, 200))
+        if (res.result && res.result.code === 0) {
+          resolve(res.result.data)
+        } else {
+          reject(new Error((res.result && res.result.message) || 'call cloud failed'))
+        }
+      },
+      fail: (err) => {
+        console.error('[callCloud] ✗', action, 'fail:', JSON.stringify(err))
+        reject(err)
+      }
+    })
+  })
+}
+
+function init() {
+  canvas = wx.createCanvas()
+  ctx = canvas.getContext('2d')
+
+  const systemInfo = wx.getSystemInfoSync()
+  canvas.width = systemInfo.windowWidth
+  canvas.height = systemInfo.windowHeight
+
+  drawLoading('正在初始化...')
+
+  try {
+    wx.cloud.init({
+      env: cloudEnvId || undefined,
+      traceUser: true
+    })
+    cloudReady = true
+    console.log('[init] wx.cloud.init OK, cloudReady=true, envId=', cloudEnvId)
+  } catch (e) {
+    cloudReady = false
+    console.warn('[init] wx.cloud.init FAILED', e)
+  }
+
+  asyncBoot()
+
+  wx.onTouchStart(touchStart)
+  wx.onTouchEnd(touchEnd)
+
+  try {
+    wx.showShareMenu({
+      withShareTicket: true,
+      menus: ['shareAppMessage', 'shareTimeline']
+    })
+  } catch (e) {
+    console.warn('[init] showShareMenu failed', e)
+  }
+
+  wx.onShareAppMessage(() => {
+    const topScore = currentUser.totalScore || 0
+    return {
+      title: `经典游戏1024 - 当前最高分${topScore}，来挑战我吧！`,
+      imageUrl: '',
+      query: ''
+    }
+  })
+
+  wx.onShareTimeline(() => {
+    const topScore = currentUser.totalScore || 0
+    return {
+      title: `经典游戏1024 - 挑战你的数字合成能力！最高分${topScore}`,
+      imageUrl: ''
+    }
+  })
+}
+
+function asyncBoot() {
+  if (bootStarted) {
+    console.warn('asyncBoot already started, skipping')
+    return bootPromise
+  }
+  bootStarted = true
+
+  const cached = wx.getStorageSync('game1024_data')
+  if (cached && cached.nickName) {
+    currentUser.nickName = cached.nickName
+    applyLocalCache(cached)
+  }
+
+  if (cloudReady) {
+    bootPromise = Promise.resolve()
+      .then(() => callCloud('getUserData'))
+      .then((userData) => {
+        if (userData) {
+          mergeCloudUser(userData)
+          return userData
+        }
+        return callCloud('login')
+      })
+      .then((userData) => {
+        if (userData) mergeCloudUser(userData)
+        finishBoot(false)
+      })
+      .catch((err) => {
+        console.warn('cloud init failed, use local fallback', err)
+        finishBoot(false)
+      })
+  } else {
+    bootPromise = Promise.resolve()
+    finishBoot(false)
+  }
+  return bootPromise
+}
+
+function mergeCloudUser(userData) {
+  if (!userData) return
+  if (userData._openid) currentUser.openid = userData._openid
+  if (userData._id) currentUser.cloudUserId = userData._id
+  if (userData.nickName) currentUser.nickName = userData.nickName
+  if (typeof userData.level === 'number') level = userData.level
+  if (typeof userData.totalScore === 'number') totalScore = userData.totalScore
+  currentUser.level = level
+  currentUser.totalScore = totalScore
+
+  const keys = ['challenge1024', 'challenge2048', 'challenge4096', 'challenge8192']
+  keys.forEach((k, i) => {
+    if (userData[k]) {
+      currentUser[k] = userData[k]
+      challengeLevels[i].state = challengeStateFromCloud(userData[k])
+    }
+  })
+  console.log('[mergeCloudUser] cloudUserId=', currentUser.cloudUserId)
+}
+
+function applyLocalCache(data) {
+  if (typeof data.level === 'number') level = data.level
+  if (typeof data.totalScore === 'number') totalScore = data.totalScore
+  if (data.challenge1024 !== undefined) challengeLevels[0].state = challengeStateFromCloud(data.challenge1024)
+  if (data.challenge2048 !== undefined) challengeLevels[1].state = challengeStateFromCloud(data.challenge2048)
+  if (data.challenge4096 !== undefined) challengeLevels[2].state = challengeStateFromCloud(data.challenge4096)
+  if (data.challenge8192 !== undefined) challengeLevels[3].state = challengeStateFromCloud(data.challenge8192)
+  currentUser.level = level
+  currentUser.totalScore = totalScore
+}
+
+function finishBoot(skipCloudSave) {
+  loadLocalFallback()
+  const challengeChanged = applyChallengeUnlockRules()
+  newGame()
+  if (challengeChanged) {
+    saveGameData()
+  } else {
+    saveGameData(skipCloudSave !== true)
+  }
+  isLoading = false
+  draw()
+}
+
+function loadLocalFallback() {
+  try {
+    const data = wx.getStorageSync('game1024_data')
+    if (data) {
+      if (typeof data.level === 'number') level = data.level
+      if (typeof data.totalScore === 'number') totalScore = data.totalScore
+      if (data.nickName) currentUser.nickName = data.nickName
+      if (data.weixinName) currentUser.nickName = data.weixinName
+    }
+  } catch (e) {}
+}
+
+function applyChallengeUnlockRules() {
+  let changed = false
+  if (level >= 5 && challengeLevels[0].state !== 'completed') {
+    if (challengeLevels[0].state !== 'available' || currentUser.challenge1024.not_lock !== true) {
+      challengeLevels[0].state = 'available'
+      currentUser.challenge1024 = { level: false, not_lock: true }
+      changed = true
+    }
+  }
+  if (level >= 8 && challengeLevels[1].state !== 'completed') {
+    if (challengeLevels[1].state !== 'available' || currentUser.challenge2048.not_lock !== true) {
+      challengeLevels[1].state = 'available'
+      currentUser.challenge2048 = { level: false, not_lock: true }
+      changed = true
+    }
+  }
+  if (level >= 10 && challengeLevels[2].state !== 'completed') {
+    if (challengeLevels[2].state !== 'available' || currentUser.challenge4096.not_lock !== true) {
+      challengeLevels[2].state = 'available'
+      currentUser.challenge4096 = { level: false, not_lock: true }
+      changed = true
+    }
+  }
+  if (totalScore >= 100 && challengeLevels[3].state !== 'completed') {
+    if (challengeLevels[3].state !== 'available' || currentUser.challenge8192.not_lock !== true) {
+      challengeLevels[3].state = 'available'
+      currentUser.challenge8192 = { level: false, not_lock: true }
+      changed = true
+    }
+  }
+  return changed
+}
+
+function saveGameData(saveToCloud) {
+  console.log('[saveGameData] called, saveToCloud=', saveToCloud, 'cloudReady=', cloudReady, 'level=', level, 'totalScore=', totalScore)
+  try {
+    const localData = {
+      nickName: currentUser.nickName || '',
+      score: score,
+      totalScore: totalScore,
+      level: level,
+      challenge1024: currentUser.challenge1024,
+      challenge2048: currentUser.challenge2048,
+      challenge4096: currentUser.challenge4096,
+      challenge8192: currentUser.challenge8192
+    }
+    wx.setStorageSync('game1024_data', localData)
+
+    const userInfoData = {
+      weixinId: currentUser.openid || '',
+      weixinName: currentUser.nickName || ''
+    }
+    wx.setStorageSync('userInfo', userInfoData)
+
+    currentUser.level = level
+    currentUser.totalScore = totalScore
+
+    if (saveToCloud !== false && cloudReady) {
+      console.log('[saveGameData] → calling updateGame with cloudUserId=', currentUser.cloudUserId)
+      callCloud('updateGame', {
+        cloudUserId: currentUser.cloudUserId,
+        level: level,
+        totalScore: totalScore,
+        challenge1024: currentUser.challenge1024,
+        challenge2048: currentUser.challenge2048,
+        challenge4096: currentUser.challenge4096,
+        challenge8192: currentUser.challenge8192
+      }).then(() => {
+        console.log('[saveGameData] ← updateGame SUCCESS')
+      }).catch((err) => {
+        console.warn('[saveGameData] ← updateGame FAILED:', err.message)
+      })
+    } else if (!cloudReady) {
+      console.warn('[saveGameData] cloudReady=false, SKIP cloud save')
+    }
+  } catch (e) {
+    console.warn('saveGameData error', e)
+  }
+}
+
+function newGame() {
+  grid = Array(size * size).fill(0)
+  tiles = []
+  score = isChallengeMode ? 10 : (level <= 8 ? 2 : 4)
+  gameOver = false
+  gameWon = false
+  gameHistory = []
+  reviveCount = 0
+
+  if (!isChallengeMode) {
+    if (level <= 8) {
+      targetScore = Math.pow(2, level + 1)
+    } else {
+      targetScore = 1024
+    }
+  }
+
+  addRandomTile()
+  addRandomTile()
+  draw()
+}
+
+function addRandomTile() {
+  const emptyCells = []
+  for (let i = 0; i < grid.length; i++) {
+    if (grid[i] === 0) {
+      emptyCells.push(i)
+    }
+  }
+
+  if (emptyCells.length > 0) {
+    const randomIndex = emptyCells[Math.floor(Math.random() * emptyCells.length)]
+    const value = getRandomValue()
+    grid[randomIndex] = value
+    tiles.push({
+      value: value,
+      row: Math.floor(randomIndex / size),
+      col: randomIndex % size,
+      isNew: true
+    })
+  }
+}
+
+function saveGameState() {
+  gameHistory.push({
+    grid: [...grid],
+    tiles: JSON.parse(JSON.stringify(tiles)),
+    score: score,
+    totalScore: totalScore
+  })
+  if (gameHistory.length > 10) {
+    gameHistory.shift()
+  }
+}
+
+function getRandomValue() {
+  if (level <= 10) {
+    return 2
+  } else {
+    return Math.random() < 0.9 ? 2 : 4
+  }
+}
+
+function drawRoundedRect(ctx, x, y, width, height, radius) {
+  ctx.beginPath()
+  ctx.moveTo(x + radius, y)
+  ctx.lineTo(x + width - radius, y)
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius)
+  ctx.lineTo(x + width, y + height - radius)
+  ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+  ctx.lineTo(x + radius, y + height)
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius)
+  ctx.lineTo(x, y + radius)
+  ctx.quadraticCurveTo(x, y, x + radius, y)
+  ctx.closePath()
+}
+
+function drawLoading(text) {
+  ctx.fillStyle = '#faf8ef'
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 32px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('经典游戏1024', canvas.width / 2, canvas.height / 2 - 30)
+  ctx.font = '18px Arial'
+  ctx.fillText(text || '加载中...', canvas.width / 2, canvas.height / 2 + 20)
+}
+
+function draw() {
+  if (isLoading) {
+    drawLoading()
+    return
+  }
+
+  ctx.fillStyle = '#faf8ef'
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+  if (currentTab === 'ranking') {
+    drawRanking()
+    drawTabBar()
+    if (showReviewModal) drawReviewModal()
+    return
+  }
+
+  if (currentTab === 'challenge' && !isChallengeMode) {
+    drawChallenge()
+    drawTabBar()
+    if (showReviewModal) drawReviewModal()
+    return
+  }
+
+  const cellSize = Math.min(canvas.width - 60, canvas.height - 440) / size
+  const padding = 10
+  const offsetX = (canvas.width - (size * cellSize + (size - 1) * padding)) / 2
+  const offsetY = 195
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 36px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('经典游戏1024', canvas.width / 2, 55)
+
+  let levelText = ''
+  if (isChallengeMode && currentChallengeId) {
+    const challenge = challengeLevels.find(c => c.id === currentChallengeId)
+    levelText = challenge ? challenge.name : `挑战目标: ${challengeTarget}`
+  } else {
+    levelText = `第 ${level} 关`
+  }
+  ctx.font = '20px Arial'
+  ctx.fillStyle = '#8f7a66'
+  ctx.fillText(`${levelText}  目标: ${targetScore}`, canvas.width / 2, 95)
+
+  const scoreBoxWidth = 100
+  const scoreBoxHeight = 55
+  const scoreBoxGap = 20
+  const totalScoreBoxWidth = scoreBoxWidth * 2 + scoreBoxGap
+  const scoreStartX = (canvas.width - totalScoreBoxWidth) / 2
+  const scoreY = 110
+
+  ctx.fillStyle = '#bbada0'
+  drawRoundedRect(ctx, scoreStartX, scoreY, scoreBoxWidth, scoreBoxHeight, 6)
+  ctx.fill()
+  ctx.fillStyle = '#f9f6f2'
+  ctx.font = 'bold 16px Arial'
+  ctx.fillText('分数', scoreStartX + scoreBoxWidth / 2, scoreY + 18)
+  ctx.font = 'bold 24px Arial'
+  ctx.fillText(score, scoreStartX + scoreBoxWidth / 2, scoreY + 43)
+
+  ctx.fillStyle = '#bbada0'
+  drawRoundedRect(ctx, scoreStartX + scoreBoxWidth + scoreBoxGap, scoreY, scoreBoxWidth, scoreBoxHeight, 6)
+  ctx.fill()
+  ctx.fillStyle = '#f9f6f2'
+  ctx.font = 'bold 16px Arial'
+  ctx.fillText('总分', scoreStartX + scoreBoxWidth + scoreBoxGap + scoreBoxWidth / 2, scoreY + 18)
+  ctx.font = 'bold 24px Arial'
+  ctx.fillText(totalScore, scoreStartX + scoreBoxWidth + scoreBoxGap + scoreBoxWidth / 2, scoreY + 43)
+
+  ctx.fillStyle = '#bbada0'
+  drawRoundedRect(ctx, offsetX - 10, offsetY - 10, size * cellSize + (size - 1) * padding + 20, size * cellSize + (size - 1) * padding + 20, 12)
+  ctx.fill()
+
+  for (let i = 0; i < size; i++) {
+    for (let j = 0; j < size; j++) {
+      const x = offsetX + j * (cellSize + padding)
+      const y = offsetY + i * (cellSize + padding)
+
+      ctx.fillStyle = '#cdc1b4'
+      drawRoundedRect(ctx, x, y, cellSize, cellSize, 6)
+      ctx.fill()
+
+      const value = grid[i * size + j]
+      if (value !== 0) {
+        drawTile(value, x, y, cellSize)
+      }
+    }
+  }
+
+  const gridBottomY = offsetY + size * cellSize + (size - 1) * padding + 25
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '14px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText(`复活次数: ${reviveCount}/${maxReviveCount}`, canvas.width / 2, gridBottomY)
+
+  if (gameOver) {
+    ctx.fillStyle = 'rgba(238, 228, 218, 0.9)'
+    ctx.fillRect(0, gridBottomY + 10, canvas.width, 120)
+
+    if (reviveCount < maxReviveCount && gameHistory.length >= 1) {
+      const reviveBtnX = (canvas.width - 120) / 2
+      const reviveBtnY = gridBottomY + 45
+      const reviveBtnW = 120
+      const reviveBtnH = 36
+
+      ctx.fillStyle = '#edc22e'
+      drawRoundedRect(ctx, reviveBtnX, reviveBtnY, reviveBtnW, reviveBtnH, 8)
+      ctx.fill()
+
+      ctx.fillStyle = '#8f7a66'
+      ctx.font = 'bold 16px Arial'
+      ctx.textAlign = 'center'
+      ctx.fillText(`复活 (${maxReviveCount - reviveCount})`, reviveBtnX + reviveBtnW / 2, reviveBtnY + 22)
+    } else {
+      const restartBtnX = (canvas.width - 120) / 2
+      const restartBtnY = gridBottomY + 45
+      const restartBtnW = 120
+      const restartBtnH = 36
+
+      ctx.fillStyle = '#8f7a66'
+      drawRoundedRect(ctx, restartBtnX, restartBtnY, restartBtnW, restartBtnH, 8)
+      ctx.fill()
+
+      ctx.fillStyle = '#f9f6f2'
+      ctx.font = 'bold 16px Arial'
+      ctx.textAlign = 'center'
+      ctx.fillText('重新开始', restartBtnX + restartBtnW / 2, restartBtnY + 22)
+    }
+  }
+
+  if (gameWon) {
+    ctx.fillStyle = 'rgba(238, 228, 218, 0.9)'
+    ctx.fillRect(0, gridBottomY + 10, canvas.width, 120)
+
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = 'bold 24px Arial'
+    ctx.textAlign = 'center'
+
+    if (isChallengeMode) {
+      const challenge = challengeLevels.find(c => c.id === currentChallengeId)
+      const challengeName = challenge ? challenge.name : '挑战模式'
+      ctx.fillText(`${challengeName}完成!`, canvas.width / 2, gridBottomY + 40)
+    } else {
+      ctx.fillText(`第 ${level} 关完成!`, canvas.width / 2, gridBottomY + 40)
+    }
+
+    ctx.font = '18px Arial'
+    ctx.fillText('点击屏幕进入下一关', canvas.width / 2, gridBottomY + 70)
+  }
+
+  if (!gameOver && !gameWon) {
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = '16px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('滑动屏幕移动方块', canvas.width / 2, gridBottomY + 30)
+
+    const reviewBtnX = canvas.width - 95
+    const reviewBtnY = gridBottomY + 10
+    const reviewBtnW = 80
+    const reviewBtnH = 30
+    ctx.fillStyle = '#edc22e'
+    drawRoundedRect(ctx, reviewBtnX, reviewBtnY, reviewBtnW, reviewBtnH, 6)
+    ctx.fill()
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = 'bold 14px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('★ 评分', reviewBtnX + reviewBtnW / 2, reviewBtnY + 20)
+  }
+
+  drawTabBar()
+  if (showReviewModal) drawReviewModal()
+}
+
+function drawStar(cx, cy, size, filled) {
+  ctx.beginPath()
+  for (let i = 0; i < 5; i++) {
+    const angle = -Math.PI / 2 + i * (2 * Math.PI / 5)
+    const outerX = cx + Math.cos(angle) * size / 2
+    const outerY = cy + Math.sin(angle) * size / 2
+    const innerAngle = angle + Math.PI / 5
+    const innerX = cx + Math.cos(innerAngle) * size / 4.5
+    const innerY = cy + Math.sin(innerAngle) * size / 4.5
+    if (i === 0) ctx.moveTo(outerX, outerY)
+    else ctx.lineTo(outerX, outerY)
+    ctx.lineTo(innerX, innerY)
+  }
+  ctx.closePath()
+  ctx.fillStyle = filled ? '#edc22e' : '#d6cdc2'
+  ctx.fill()
+  ctx.strokeStyle = filled ? '#edc22e' : '#d6cdc2'
+  ctx.lineWidth = 1
+  ctx.stroke()
+}
+
+function drawReviewModal() {
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+  const modalW = canvas.width - 40
+  const modalX = 20
+  const modalY = 80
+  const modalH = canvas.height - 120
+
+  ctx.fillStyle = '#ffffff'
+  drawRoundedRect(ctx, modalX, modalY, modalW, modalH, 12)
+  ctx.fill()
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 22px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('玩家评价', canvas.width / 2, modalY + 30)
+
+  const closeBtnSize = 28
+  const closeBtnX = modalX + modalW - closeBtnSize - 10
+  const closeBtnY = modalY + 6
+  ctx.fillStyle = '#d6cdc2'
+  drawRoundedRect(ctx, closeBtnX, closeBtnY, closeBtnSize, closeBtnSize, 14)
+  ctx.fill()
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 18px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('×', closeBtnX + closeBtnSize / 2, closeBtnY + 21)
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '13px Arial'
+  ctx.textAlign = 'center'
+  if (reviewAverage > 0) {
+    ctx.fillText(`平均评分: ${reviewAverage.toFixed(1)}  ★  |  共 ${reviews.length} 条`, canvas.width / 2, modalY + 54)
+  } else {
+    ctx.fillText('暂无评价，快来抢沙发吧！', canvas.width / 2, modalY + 54)
+  }
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 13px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('请为经典游戏1024打分', canvas.width / 2, modalY + 76)
+
+  const starY = modalY + 90
+  const starSize = 28
+  const starGap = 6
+  const totalStarsW = 5 * starSize + 4 * starGap
+  const starStartX = (canvas.width - totalStarsW) / 2
+  for (let i = 0; i < 5; i++) {
+    const sx = starStartX + i * (starSize + starGap)
+    drawStar(sx + starSize / 2, starY + starSize / 2, starSize, i < userReviewScore)
+  }
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '12px Arial'
+  ctx.textAlign = 'center'
+  const scoreLabels = ['', '很差', '一般', '还行', '不错', '非常棒!']
+  ctx.fillText(scoreLabels[userReviewScore] || '', canvas.width / 2, starY + starSize + 12)
+
+  const inputY = starY + starSize + 22
+  ctx.fillStyle = '#f9f6f2'
+  drawRoundedRect(ctx, modalX + 20, inputY, modalW - 40, 48, 6)
+  ctx.fill()
+  ctx.strokeStyle = '#d6cdc2'
+  ctx.lineWidth = 1
+  ctx.stroke()
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '12px Arial'
+  ctx.textAlign = 'left'
+  const displayText = userReviewComment ? userReviewComment : '点击输入评论...'
+  const maxChar = Math.floor((modalW - 60) / 7)
+  const shortText = displayText.length > maxChar ? displayText.substring(0, maxChar - 3) + '...' : displayText
+  ctx.fillText(shortText, modalX + 28, inputY + 18)
+  if (!userReviewComment) {
+    ctx.fillStyle = '#b8b0a7'
+    ctx.fillText('(最多200字)', modalX + 28, inputY + 36)
+  }
+
+  let submitBottomY
+  if (!hasUserReviewed) {
+    const submitBtnY = inputY + 58
+    ctx.fillStyle = userReviewScore > 0 ? '#edc22e' : '#d6cdc2'
+    drawRoundedRect(ctx, canvas.width / 2 - 60, submitBtnY, 120, 34, 8)
+    ctx.fill()
+    ctx.fillStyle = userReviewScore > 0 ? '#8f7a66' : '#b8b0a7'
+    ctx.font = 'bold 15px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('提交评价', canvas.width / 2, submitBtnY + 22)
+    submitBottomY = submitBtnY + 34
+  } else {
+    ctx.fillStyle = '#a89880'
+    ctx.font = '13px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('你已提交过评价，感谢支持！', canvas.width / 2, inputY + 70)
+    submitBottomY = inputY + 80
+  }
+
+  const dividerY = submitBottomY + 10
+  ctx.strokeStyle = '#e8e0d6'
+  ctx.lineWidth = 1
+  ctx.beginPath()
+  ctx.moveTo(modalX + 20, dividerY)
+  ctx.lineTo(modalX + modalW - 20, dividerY)
+  ctx.stroke()
+
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 13px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('—— 玩家评价列表 ——', canvas.width / 2, dividerY + 20)
+
+  const listStartY = dividerY + 30
+  const listEndY = modalY + modalH - 12
+  const lineH = 56
+  let displayed = 0
+  for (let i = 0; i < reviews.length; i++) {
+    const review = reviews[i]
+    const ry = listStartY + displayed * lineH
+    if (ry + lineH > listEndY) break
+    displayed++
+
+    ctx.fillStyle = '#f9f6f2'
+    drawRoundedRect(ctx, modalX + 12, ry, modalW - 24, lineH - 8, 6)
+    ctx.fill()
+
+    const nickName = review.nickName || '玩家'
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = 'bold 13px Arial'
+    ctx.textAlign = 'left'
+    const maxNameW = modalW - 80
+    let displayName = nickName
+    if (ctx.measureText(nickName).width > maxNameW) {
+      while (ctx.measureText(displayName + '...').width > maxNameW && displayName.length > 0) {
+        displayName = displayName.substring(0, displayName.length - 1)
+      }
+      displayName += '...'
+    }
+    ctx.fillText(displayName, modalX + 22, ry + 18)
+
+    if (review.time) {
+      ctx.fillStyle = '#b8b0a7'
+      ctx.font = '11px Arial'
+      ctx.textAlign = 'right'
+      ctx.fillText(review.time, modalX + modalW - 22, ry + 18)
+    }
+
+    ctx.fillStyle = '#edc22e'
+    ctx.font = '12px Arial'
+    ctx.textAlign = 'left'
+    const starStr = '★'.repeat(review.score || 0) + '☆'.repeat(5 - (review.score || 0))
+    ctx.fillText(starStr, modalX + 22, ry + 34)
+
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = '12px Arial'
+    const comment = review.comment || '(未填写评论)'
+    const cw = modalW - 48
+    let displayComment = comment
+    if (ctx.measureText(comment).width > cw) {
+      while (ctx.measureText(displayComment + '...').width > cw && displayComment.length > 0) {
+        displayComment = displayComment.substring(0, displayComment.length - 1)
+      }
+      displayComment += '...'
+    }
+    ctx.textAlign = 'left'
+    ctx.fillText(displayComment, modalX + 22, ry + 50)
+  }
+
+  if (reviews.length === 0 && !reviewLoading) {
+    ctx.fillStyle = '#b8b0a7'
+    ctx.font = '13px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('还没有评价，成为第一个吧！', canvas.width / 2, listStartY + 22)
+  }
+}
+
+function getReviewModalRect() {
+  return {
+    modalX: 20,
+    modalY: 80,
+    modalW: canvas.width - 40,
+    modalH: canvas.height - 120
+  }
+}
+
+function showReviewInput() {
+  if (!showReviewModal) return
+  if (hasUserReviewed) return
+  wx.showModal({
+    title: '输入评论',
+    editable: true,
+    placeholderText: '分享你的游戏感受... (最多200字)',
+    content: userReviewComment || '',
+    success: (res) => {
+      if (res.confirm) {
+        userReviewComment = (res.content || '').substring(0, 200)
+      }
+      draw()
+    },
+    fail: () => { draw() }
+  })
+}
+
+function hideReviewInput() {}
+
+function loadReviews() {
+  reviewLoading = true
+  callCloud('getReviews', {}).then((data) => {
+    reviews = (data && data.list) || []
+    reviewAverage = (data && data.average) || 0
+    hasUserReviewed = !!(data && data.userReviewed)
+    reviewLoading = false
+    draw()
+  }).catch((err) => {
+    reviewLoading = false
+    console.warn('[loadReviews] failed:', err.message)
+    reviews = []
+    reviewAverage = 0
+    hasUserReviewed = false
+    draw()
+  })
+}
+
+function submitReview() {
+  if (userReviewScore <= 0) {
+    wx.showToast({ title: '请先选择星级评分', icon: 'none' })
+    return
+  }
+  if (bootPromise && bootPromise.then) {
+    bootPromise.then(() => doSubmitReview())
+  } else {
+    doSubmitReview()
+  }
+}
+
+function doSubmitReview() {
+  if (!currentUser.cloudUserId && !currentUser.openid) {
+    wx.showToast({ title: '正在登录，请稍候...', icon: 'none' })
+    return
+  }
+  console.log('[submitReview] cloudUserId=', currentUser.cloudUserId, 'openid=', currentUser.openid, 'score=', userReviewScore)
+  callCloud('saveReview', {
+    cloudUserId: currentUser.cloudUserId,
+    score: userReviewScore,
+    comment: userReviewComment || ''
+  }).then(() => {
+    hasUserReviewed = true
+    userReviewComment = ''
+    wx.showToast({ title: '评价成功！', icon: 'success' })
+    loadReviews()
+  }).catch((err) => {
+    console.error('[submitReview] FAILED:', err)
+    wx.showToast({ title: '提交失败: ' + (err.message || '未知错误'), icon: 'none' })
+  })
+}
+
+function drawRanking() {
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 40px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('排行榜', canvas.width / 2, 80)
+
+  const tabWidth = canvas.width / 2
+  const tabHeight = 50
+  const tabY = 100
+
+  ctx.fillStyle = rankingSort === 'level' ? '#edc22e' : '#bbada0'
+  drawRoundedRect(ctx, 15, tabY, tabWidth - 22, tabHeight, 6)
+  ctx.fill()
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 20px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('关数排名', tabWidth / 2, tabY + 32)
+
+  ctx.fillStyle = rankingSort === 'score' ? '#edc22e' : '#bbada0'
+  drawRoundedRect(ctx, tabWidth + 8, tabY, tabWidth - 23, tabHeight, 6)
+  ctx.fill()
+  ctx.fillStyle = '#8f7a66'
+  ctx.fillText('总分数排名', tabWidth + tabWidth / 2, tabY + 32)
+
+  const rankingY = 170
+  const boxHeight = 60
+  const gap = 12
+  const startY = rankingY
+
+  if (rankingCache && rankingCache.length > 0) {
+    for (let i = 0; i < Math.min(rankingCache.length, 5); i++) {
+      const record = rankingCache[i]
+      const y = startY + i * (boxHeight + gap)
+
+      ctx.fillStyle = i === 0 ? '#edc22e' : (i === 1 ? '#c9b9a8' : (i === 2 ? '#a67c52' : '#bbada0'))
+      drawRoundedRect(ctx, 8, y, canvas.width - 16, boxHeight, 8)
+      ctx.fill()
+
+      ctx.fillStyle = '#f9f6f2'
+      ctx.font = 'bold 24px Arial'
+      ctx.textAlign = 'left'
+      ctx.fillText(`${i + 1}`, 16, y + 38)
+
+      ctx.font = '18px Arial'
+      const name = record.nickName || record.weixinName || '玩家'
+      ctx.fillText(name, 38, y + 38)
+
+      ctx.font = '18px Arial'
+      const levelValue = record.level || 1
+      ctx.textAlign = 'right'
+      ctx.fillText(`关数: ${levelValue}`, canvas.width * 0.65, y + 38)
+
+      ctx.fillText(`总分: ${record.totalScore || 0}`, canvas.width - 16, y + 38)
+    }
+  } else if (rankingLoading) {
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = '22px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('加载排行榜...', canvas.width / 2, startY + 80)
+  } else {
+    ctx.fillStyle = '#8f7a66'
+    ctx.font = '24px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText('暂无记录', canvas.width / 2, startY + 100)
+  }
+}
+
+let rankingCache = null
+let rankingLoading = false
+
+function loadRanking() {
+  rankingLoading = true
+  rankingCache = null
+  if (cloudReady) {
+    callCloud('getRanking', {
+      sortBy: rankingSort === 'level' ? 'level' : 'totalScore',
+      order: 'desc',
+      limit: 20
+    }).then((data) => {
+      rankingCache = data || []
+    }).catch((err) => {
+      console.warn('getRanking failed', err)
+      rankingCache = []
+    }).then(() => {
+      rankingLoading = false
+      if (currentTab === 'ranking') draw()
+    })
+  } else {
+    rankingCache = loadLocalRanking()
+    rankingLoading = false
+    draw()
+  }
+}
+
+function loadLocalRanking() {
+  try {
+    const data = wx.getStorageSync('ranking')
+    if (data) {
+      const parsed = typeof data === 'string' ? JSON.parse(data) : data
+      if (Array.isArray(parsed)) return parsed
+    }
+  } catch (e) {}
+  return []
+}
+
+function saveLocalRanking(records) {
+  try {
+    wx.setStorageSync('ranking', JSON.stringify(records))
+  } catch (e) {}
+}
+
+function drawChallenge() {
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = 'bold 40px Arial'
+  ctx.textAlign = 'center'
+  ctx.fillText('挑战模式', canvas.width / 2, 60)
+
+  const startY = 120
+  const boxHeight = 80
+  const gap = 15
+
+  for (let i = 0; i < challengeLevels.length; i++) {
+    const lvl = challengeLevels[i]
+    const y = startY + i * (boxHeight + gap)
+
+    ctx.fillStyle = '#bbada0'
+    drawRoundedRect(ctx, 30, y, canvas.width - 60, boxHeight, 8)
+    ctx.fill()
+
+    ctx.fillStyle = '#000000'
+    ctx.font = 'bold 24px Arial'
+    ctx.textAlign = 'left'
+    ctx.fillText(lvl.name, 60, y + 35)
+
+    ctx.font = '20px Arial'
+    ctx.fillText(`目标: ${lvl.target}`, 60, y + 60)
+
+    ctx.textAlign = 'right'
+    if (lvl.state === 'locked') {
+      ctx.fillStyle = '#ffffff'
+      ctx.font = 'bold 20px Arial'
+      ctx.fillText('未解锁', canvas.width - 60, y + 48)
+    } else if (lvl.state === 'completed') {
+      ctx.fillStyle = '#988f87'
+      ctx.font = 'bold 20px Arial'
+      ctx.fillText('已完成', canvas.width - 60, y + 48)
+    } else {
+      ctx.fillStyle = '#edc22e'
+      ctx.font = 'bold 20px Arial'
+      ctx.fillText('进行中', canvas.width - 60, y + 48)
+    }
+  }
+
+  ctx.textAlign = 'center'
+  ctx.fillStyle = '#8f7a66'
+  ctx.font = '16px Arial'
+  ctx.fillText('完成闯关模式解锁更多挑战', canvas.width / 2, startY + challengeLevels.length * (boxHeight + gap) + 30)
+}
+
+function drawTabBar() {
+  const tabHeight = 56
+  const tabY = canvas.height - tabHeight - 12
+
+  ctx.fillStyle = '#faf8ef'
+  ctx.fillRect(0, tabY, canvas.width, tabHeight)
+
+  ctx.strokeStyle = '#d6cdc2'
+  ctx.lineWidth = 1
+  ctx.beginPath()
+  ctx.moveTo(0, tabY)
+  ctx.lineTo(canvas.width, tabY)
+  ctx.stroke()
+
+  const tabWidth = canvas.width / 3
+
+  const tabs = [
+    { id: 'home', label: '首页' },
+    { id: 'challenge', label: '挑战' },
+    { id: 'ranking', label: '排行榜' }
+  ]
+
+  for (let i = 0; i < tabs.length; i++) {
+    const tab = tabs[i]
+    const x = i * tabWidth
+    const isActive = currentTab === tab.id
+
+    if (isActive) {
+      ctx.fillStyle = '#8f7a66'
+      ctx.fillRect(x + tabWidth / 4, tabY + 8, tabWidth / 2, 3)
+    }
+
+    ctx.fillStyle = isActive ? '#8f7a66' : '#988f87'
+    ctx.font = 'bold 18px Arial'
+    ctx.textAlign = 'center'
+    ctx.fillText(tab.label, x + tabWidth / 2, tabY + 40)
+  }
+}
+
+function drawTile(value, x, y, size) {
+  const colors = {
+    2: '#eee4da',
+    4: '#ede0c8',
+    8: '#f2b179',
+    16: '#f59563',
+    32: '#f67c5f',
+    64: '#f65e3b',
+    128: '#edcf72',
+    256: '#edcc61',
+    512: '#edc850',
+    1024: '#edc53f',
+    2048: '#edc22e'
+  }
+
+  const textColors = {
+    2: '#776e65',
+    4: '#776e65',
+    8: '#f9f6f2',
+    16: '#f9f6f2',
+    32: '#f9f6f2',
+    64: '#f9f6f2',
+    128: '#f9f6f2',
+    256: '#f9f6f2',
+    512: '#f9f6f2',
+    1024: '#f9f6f2',
+    2048: '#f9f6f2'
+  }
+
+  ctx.fillStyle = colors[value] || '#3c3a32'
+  drawRoundedRect(ctx, x, y, size, size, 8)
+  ctx.fill()
+
+  ctx.fillStyle = textColors[value] || '#f9f6f2'
+  ctx.font = `bold ${size / 3}px Arial`
+  ctx.textAlign = 'center'
+  ctx.textBaseline = 'middle'
+  ctx.fillText(value.toString(), x + size / 2, y + size / 2)
+}
+
+function touchStart(e) {
+  const touch = e.touches[0]
+  startX = touch.clientX
+  startY = touch.clientY
+  touchTarget = getTouchTarget(startX, startY)
+}
+
+function touchEnd(e) {
+  const touch = e.changedTouches[0]
+  const endX = touch.clientX
+  const endY = touch.clientY
+
+  if (touchTarget) {
+    handleTabClick(touchTarget)
+    touchTarget = null
+    return
+  }
+
+  if (showReviewModal) {
+    return
+  }
+
+  if (currentTab !== 'home' && currentTab !== 'challenge') {
+    return
+  }
+
+  if (gameOver) {
+    newGame()
+    draw()
+    return
+  }
+
+  const dx = endX - startX
+  const dy = endY - startY
+
+  const minSwipeDistance = 30
+
+  if (Math.abs(dx) < minSwipeDistance && Math.abs(dy) < minSwipeDistance) {
+    if (gameWon) {
+      nextLevel()
+      draw()
+    }
+    return
+  }
+
+  if (gameWon) {
+    return
+  }
+
+  if (Math.abs(dx) > Math.abs(dy)) {
+    if (dx > 0) {
+      moveRight()
+    } else {
+      moveLeft()
+    }
+  } else {
+    if (dy > 0) {
+      moveDown()
+    } else {
+      moveUp()
+    }
+  }
+
+  draw()
+}
+
+function getTouchTarget(x, y) {
+  if (showReviewModal) {
+    const { modalX, modalY, modalW } = getReviewModalRect()
+    const closeBtnSize = 28
+    const closeBtnX = modalX + modalW - closeBtnSize - 10
+    const closeBtnY = modalY + 6
+    if (x >= closeBtnX && x <= closeBtnX + closeBtnSize && y >= closeBtnY && y <= closeBtnY + closeBtnSize) {
+      return 'review_close'
+    }
+    const starY = modalY + 90
+    const starSize = 28
+    const starGap = 6
+    const totalStarsW = 5 * starSize + 4 * starGap
+    const starStartX = (canvas.width - totalStarsW) / 2
+    for (let i = 0; i < 5; i++) {
+      const sx = starStartX + i * (starSize + starGap)
+      if (x >= sx && x <= sx + starSize && y >= starY && y <= starY + starSize) {
+        return 'review_star_' + (i + 1)
+      }
+    }
+    const inputY = starY + starSize + 22
+    if (x >= modalX + 20 && x <= modalX + modalW - 20 && y >= inputY && y <= inputY + 48) return 'review_input'
+    if (!hasUserReviewed) {
+      const submitBtnY = inputY + 58
+      if (x >= canvas.width / 2 - 60 && x <= canvas.width / 2 + 60 && y >= submitBtnY && y <= submitBtnY + 34) {
+        return 'review_submit'
+      }
+    }
+    return null
+  }
+
+  const tabHeight = 56
+  const tabY = canvas.height - tabHeight - 12
+
+  if (y >= tabY) {
+    const tabWidth = canvas.width / 3
+    if (x < tabWidth) return 'home'
+    if (x < tabWidth * 2) return 'challenge'
+    return 'ranking'
+  }
+
+  if (currentTab === 'ranking') {
+    const tW = canvas.width / 2
+    const tH = 50
+    const tY = 100
+    if (y >= tY && y <= tY + tH) {
+      if (x < tW) return 'sort_level'
+      return 'sort_score'
+    }
+    return null
+  }
+
+  if (currentTab === 'challenge' && !isChallengeMode) {
+    const startY = 120
+    const boxHeight = 80
+    const gap = 15
+    for (let i = 0; i < challengeLevels.length; i++) {
+      const boxY = startY + i * (boxHeight + gap)
+      if (x >= 30 && x <= canvas.width - 30 && y >= boxY && y <= boxY + boxHeight) {
+        return 'challenge_' + challengeLevels[i].id
+      }
+    }
+    return null
+  }
+
+  if (currentTab === 'home' || isChallengeMode) {
+    const cellSize = Math.min(canvas.width - 60, canvas.height - 440) / size
+    const padding = 10
+    const offsetY = 195
+    const gridBottomY = offsetY + size * cellSize + (size - 1) * padding + 25
+
+    if (!gameOver && !gameWon) {
+      const reviewBtnX = canvas.width - 95
+      const reviewBtnY = gridBottomY + 10
+      if (x >= reviewBtnX && x <= reviewBtnX + 80 && y >= reviewBtnY && y <= reviewBtnY + 30) {
+        return 'review_open'
+      }
+    }
+
+    if (gameOver) {
+      if (reviveCount < maxReviveCount && gameHistory.length >= 1) {
+        const bx = (canvas.width - 120) / 2
+        const by = gridBottomY + 45
+        if (x >= bx && x <= bx + 120 && y >= by && y <= by + 36) return 'revive'
+      } else {
+        const bx = (canvas.width - 120) / 2
+        const by = gridBottomY + 45
+        if (x >= bx && x <= bx + 120 && y >= by && y <= by + 36) return 'restart'
+      }
+    }
+  }
+
+  return null
+}
+
+function handleTabClick(tab) {
+  if (tab === 'review_open') {
+    showReviewModal = true
+    loadReviews()
+    draw()
+    return
+  }
+
+  if (tab === 'review_close') {
+    showReviewModal = false
+    hideReviewInput()
+    draw()
+    return
+  }
+
+  if (tab.startsWith('review_star_')) {
+    userReviewScore = parseInt(tab.replace('review_star_', ''))
+    draw()
+    return
+  }
+
+  if (tab === 'review_input') {
+    if (hasUserReviewed) {
+      wx.showToast({ title: '你已提交过评价，感谢支持！', icon: 'none' })
+      return
+    }
+    showReviewInput()
+    return
+  }
+
+  if (tab === 'review_submit') {
+    hideReviewInput()
+    submitReview()
+    return
+  }
+
+  if (tab === 'revive') {
+    revive()
+    return
+  }
+
+  if (tab === 'restart') {
+    newGame()
+    return
+  }
+
+  if (tab === 'sort_level') {
+    rankingSort = 'level'
+    loadRanking()
+    return
+  }
+
+  if (tab === 'sort_score') {
+    rankingSort = 'score'
+    loadRanking()
+    return
+  }
+
+  if (tab === 'challenge') {
+    currentTab = 'challenge'
+    isChallengeMode = false
+    draw()
+    return
+  }
+
+  if (tab.startsWith('challenge_')) {
+    const challengeId = tab.replace('challenge_', '')
+    const idx = challengeLevels.findIndex(c => c.id === challengeId)
+    if (idx === -1) return
+
+    const challenge = challengeLevels[idx]
+
+    if (idx > 0) {
+      const prev = challengeLevels[idx - 1]
+      const prevCompleted = currentUser[prev.key] && currentUser[prev.key].level === true
+      if (!prevCompleted) {
+        wx.showToast({ title: `请先完成「${prev.name}」`, icon: 'none' })
+        return
+      }
+    }
+
+    if (challenge.state === 'completed') {
+      wx.showToast({ title: '该挑战已完成', icon: 'none' })
+      return
+    }
+
+    if (challenge.state === 'locked') {
+      challengeLevels[idx].state = 'available'
+      currentUser[challenge.key] = { level: false, not_lock: true }
+      saveGameData()
+    }
+
+    isChallengeMode = true
+    currentChallengeId = challengeId
+    challengeTarget = challenge.target
+    targetScore = challenge.target
+    newGame()
+    draw()
+    return
+  }
+
+  if (tab === 'ranking') {
+    currentTab = 'ranking'
+    saveGameData()
+    loadRanking()
+    return
+  }
+
+  if (tab === 'home') {
+    currentTab = 'home'
+    isChallengeMode = false
+    newGame()
+    draw()
+    return
+  }
+}
+
+function moveLeft() {
+  let moved = false
+  const newGrid = [...grid]
+
+  for (let i = 0; i < size; i++) {
+    let row = []
+    for (let j = 0; j < size; j++) {
+      if (newGrid[i * size + j] !== 0) row.push(newGrid[i * size + j])
+    }
+    for (let j = 0; j < row.length - 1; j++) {
+      if (row[j] === row[j + 1]) {
+        row[j] *= 2
+        row.splice(j + 1, 1)
+      }
+    }
+    while (row.length < size) row.push(0)
+    for (let j = 0; j < size; j++) {
+      if (newGrid[i * size + j] !== row[j]) moved = true
+      newGrid[i * size + j] = row[j]
+    }
+  }
+
+  if (moved) {
+    saveGameState()
+    grid = newGrid
+    addRandomTile()
+    checkWin()
+    checkGameOver()
+    draw()
+  }
+}
+
+function moveRight() {
+  let moved = false
+  const newGrid = [...grid]
+
+  for (let i = 0; i < size; i++) {
+    let row = []
+    for (let j = size - 1; j >= 0; j--) {
+      if (newGrid[i * size + j] !== 0) row.push(newGrid[i * size + j])
+    }
+    for (let j = 0; j < row.length - 1; j++) {
+      if (row[j] === row[j + 1]) {
+        row[j] *= 2
+        row.splice(j + 1, 1)
+      }
+    }
+    while (row.length < size) row.push(0)
+    row.reverse()
+    for (let j = 0; j < size; j++) {
+      if (newGrid[i * size + j] !== row[j]) moved = true
+      newGrid[i * size + j] = row[j]
+    }
+  }
+
+  if (moved) {
+    saveGameState()
+    grid = newGrid
+    addRandomTile()
+    checkWin()
+    checkGameOver()
+    draw()
+  }
+}
+
+function moveUp() {
+  let moved = false
+  const newGrid = [...grid]
+
+  for (let j = 0; j < size; j++) {
+    let col = []
+    for (let i = 0; i < size; i++) {
+      if (newGrid[i * size + j] !== 0) col.push(newGrid[i * size + j])
+    }
+    for (let i = 0; i < col.length - 1; i++) {
+      if (col[i] === col[i + 1]) {
+        col[i] *= 2
+        col.splice(i + 1, 1)
+      }
+    }
+    while (col.length < size) col.push(0)
+    for (let i = 0; i < size; i++) {
+      if (newGrid[i * size + j] !== col[i]) moved = true
+      newGrid[i * size + j] = col[i]
+    }
+  }
+
+  if (moved) {
+    saveGameState()
+    grid = newGrid
+    addRandomTile()
+    checkWin()
+    checkGameOver()
+    draw()
+  }
+}
+
+function moveDown() {
+  let moved = false
+  const newGrid = [...grid]
+
+  for (let j = 0; j < size; j++) {
+    let col = []
+    for (let i = size - 1; i >= 0; i--) {
+      if (newGrid[i * size + j] !== 0) col.push(newGrid[i * size + j])
+    }
+    for (let i = 0; i < col.length - 1; i++) {
+      if (col[i] === col[i + 1]) {
+        col[i] *= 2
+        col.splice(i + 1, 1)
+      }
+    }
+    while (col.length < size) col.push(0)
+    col.reverse()
+    for (let i = 0; i < size; i++) {
+      if (newGrid[i * size + j] !== col[i]) moved = true
+      newGrid[i * size + j] = col[i]
+    }
+  }
+
+  if (moved) {
+    saveGameState()
+    grid = newGrid
+    addRandomTile()
+    checkWin()
+    checkGameOver()
+    draw()
+  }
+}
+
+function checkWin() {
+  const target = isChallengeMode ? challengeTarget : targetScore
+  if (grid.some(cell => cell >= target)) gameWon = true
+}
+
+function checkGameOver() {
+  if (grid.every(cell => cell !== 0)) {
+    for (let i = 0; i < size; i++) {
+      for (let j = 0; j < size; j++) {
+        const current = grid[i * size + j]
+        if (j < size - 1 && current === grid[i * size + j + 1]) return
+        if (i < size - 1 && current === grid[(i + 1) * size + j]) return
+      }
+    }
+    if (reviveCount < maxReviveCount) {
+      gameOver = true
+    } else {
+      newGame()
+    }
+  }
+}
+
+function revive() {
+  if (reviveCount >= maxReviveCount) return
+
+  if (gameHistory.length >= 2) {
+    gameHistory.pop()
+    const lastState = gameHistory.pop()
+    grid = lastState.grid
+    tiles = lastState.tiles
+    score = lastState.score
+    totalScore = lastState.totalScore
+    gameOver = false
+    reviveCount++
+    draw()
+  } else if (gameHistory.length === 1) {
+    const lastState = gameHistory.pop()
+    grid = lastState.grid
+    tiles = lastState.tiles
+    score = lastState.score
+    totalScore = lastState.totalScore
+    gameOver = false
+    reviveCount++
+    draw()
+  }
+}
+
+function nextLevel() {
+  if (!isChallengeMode) {
+    level++
+    if (level <= 8) {
+      totalScore += 2
+      targetScore = Math.pow(2, level + 1)
+      score = 2
+    } else {
+      totalScore += 4
+      targetScore = 1024
+      score = 4
+    }
+  } else {
+    totalScore += 10
+    score = 10
+    const challengeIndex = challengeLevels.findIndex(c => c.id === currentChallengeId)
+    if (challengeIndex !== -1) {
+      challengeLevels[challengeIndex].state = 'completed'
+      currentUser[challengeLevels[challengeIndex].key] = { level: true, not_lock: true }
+      console.log('[nextLevel] challenge COMPLETED:', challengeLevels[challengeIndex].key, '=', JSON.stringify(currentUser[challengeLevels[challengeIndex].key]))
+    }
+
+    const nextChallengeIndex = challengeIndex + 1
+    if (nextChallengeIndex < challengeLevels.length) {
+      const nextKey = challengeLevels[nextChallengeIndex].key
+      if (challengeLevels[nextChallengeIndex].state === 'locked') {
+        challengeLevels[nextChallengeIndex].state = 'available'
+        currentUser[nextKey] = { level: false, not_lock: true }
+        console.log('[nextLevel] next challenge UNLOCKED:', nextKey)
+      }
+      currentChallengeId = challengeLevels[nextChallengeIndex].id
+      challengeTarget = challengeLevels[nextChallengeIndex].target
+      targetScore = challengeLevels[nextChallengeIndex].target
+    } else {
+      console.log('[nextLevel] all challenges completed, no next challenge')
+    }
+  }
+
+  console.log('[nextLevel] saving to cloud, cloudUserId=', currentUser.cloudUserId, 'level=', level, 'totalScore=', totalScore)
+  console.log('[nextLevel] challenge1024=', JSON.stringify(currentUser.challenge1024), 'challenge2048=', JSON.stringify(currentUser.challenge2048), 'challenge4096=', JSON.stringify(currentUser.challenge4096), 'challenge8192=', JSON.stringify(currentUser.challenge8192))
+  saveGameData()
+  newGame()
+  draw()
+}
+
+function resetLevel() {
+  level = 1
+  totalScore = 0
+  score = 4
+  targetScore = 4
+  for (let i = 0; i < challengeLevels.length; i++) {
+    challengeLevels[i].state = 'locked'
+    const key = challengeLevels[i].key
+    currentUser[key] = { level: false, not_lock: false }
+  }
+  try {
+    wx.removeStorageSync('game1024_data')
+  } catch (e) {}
+  saveGameData()
+  newGame()
+}
+
+init()
